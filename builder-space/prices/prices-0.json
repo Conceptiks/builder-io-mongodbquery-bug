@@ -1,0 +1,318 @@
+{
+  "lastUpdatedBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "folders": [],
+  "previewUrl": "https://metalstack.cloud/en/prices",
+  "data": {
+    "inputs": [],
+    "customFonts": [
+      {
+        "kind": "webfonts#webfont",
+        "files": {
+          "100": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZhrib2Bg-4.ttf",
+          "200": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZhrib2Bg-4.ttf",
+          "300": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZhrib2Bg-4.ttf",
+          "500": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZhrib2Bg-4.ttf",
+          "600": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZhrib2Bg-4.ttf",
+          "700": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZhrib2Bg-4.ttf",
+          "800": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZhrib2Bg-4.ttf",
+          "900": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZhrib2Bg-4.ttf",
+          "regular": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZhrib2Bg-4.ttf"
+        },
+        "lastModified": "2023-09-14",
+        "variants": [
+          "100",
+          "200",
+          "300",
+          "regular",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "category": "sans-serif",
+        "family": "Inter",
+        "menu": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZlhjQ.ttf",
+        "version": "v13",
+        "subsets": [
+          "cyrillic",
+          "cyrillic-ext",
+          "greek",
+          "greek-ext",
+          "latin",
+          "latin-ext",
+          "vietnamese"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-907f412c2fcd4de784726bf049f94ce8",
+        "component": {
+          "name": "Divider",
+          "options": {
+            "hasExtraMargin": false
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Get to know metalstack.cloud V2)",
+        "id": "builder-8cae46391e414e00bfd1869eccd34555",
+        "meta": {
+          "previousId": "builder-fcdd71a8124140a7abcd1692e7e14615"
+        },
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": true,
+            "isOverlapped": false,
+            "texture": "none",
+            "id": "video"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-e2e5670a4d604e70bbb6da5f585ae612",
+            "meta": {
+              "previousId": "builder-7a5ce692fcec4a37aaa671d6fba4d573"
+            },
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "layerName": "Container",
+                "id": "builder-233eaebd53584c8d9d06011a73fe675c",
+                "meta": {
+                  "previousId": "builder-5eb2e4925277454bb36739ddeed94b16"
+                },
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-018a707a4468402184aa3bb5351f6d0a",
+                    "meta": {
+                      "previousId": "builder-664a7ddf087c41eaaf2076d41436e91f"
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-fbd3614c28ad4161b0cfce5eff9338a9",
+                        "meta": {
+                          "localizedTextInputs": [
+                            "text"
+                          ],
+                          "previousId": "builder-c58d36066337420b983f88e34bd4250e"
+                        },
+                        "component": {
+                          "name": "CustomText",
+                          "options": {
+                            "text": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Free testing period",
+                              "de": "Kostenloser Testzeitraum"
+                            },
+                            "semanticElement": "h4",
+                            "renderAs": "h4-default",
+                            "textColor": "rgba(0, 0, 0, 1)"
+                          }
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "paddingBottom": "32px"
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-c58d36066337420b983f88e34bd4250e",
+                        "meta": {
+                          "localizedTextInputs": [
+                            "text"
+                          ],
+                          "previousId": "builder-a7675e6afa624ec6903c9649e90b414e"
+                        },
+                        "component": {
+                          "name": "CustomText",
+                          "options": {
+                            "text": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "€0 / hour",
+                              "de": "€ 0 / Stunde"
+                            },
+                            "semanticElement": "h2",
+                            "renderAs": "h1-default",
+                            "textColor": "rgba(0, 0, 0, 1)"
+                          }
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "paddingBottom": "32px"
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-9f1116a353d84adb8d234f86dbd69cd8",
+                        "meta": {
+                          "localizedTextInputs": [
+                            "text"
+                          ],
+                          "previousId": "builder-c58d36066337420b983f88e34bd4250e"
+                        },
+                        "component": {
+                          "name": "CustomText",
+                          "options": {
+                            "text": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Secure your free testing period and get to know metalstack.cloud in detail. Sign up now.",
+                              "de": "Sichern Sie sich Ihren kostenlosen Testzeitraum und lernen Sie metalstack.cloud ausführlich kennen. Jetzt registrieren."
+                            },
+                            "semanticElement": "p",
+                            "renderAs": "p-default",
+                            "textColor": "rgba(0, 0, 0, 1)"
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "width": "100%",
+                        "backgroundColor": "rgba(250, 204, 21, 1)",
+                        "borderRadius": "12px",
+                        "paddingTop": "32px",
+                        "paddingLeft": "32px",
+                        "paddingRight": "32px",
+                        "paddingBottom": "32px",
+                        "boxShadow": "0 6px 12px 6px rgba(223, 223, 223, 1)",
+                        "opacity": "1",
+                        "borderWidth": "px",
+                        "borderStyle": "solid"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "responsiveStyles": {
+          "large": {
+            "display": "flex"
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-a5ba624695f14e1fb810e49e0c1ab14d",
+        "meta": {
+          "localizedTextInputs": [
+            "title",
+            "description"
+          ]
+        },
+        "component": {
+          "name": "CTA",
+          "options": {
+            "secondaryButton": true,
+            "title": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Have you got any questions? We are happy to help you.",
+              "de": "Haben Sie Fragen? Gerne helfen wir Ihnen weiter."
+            },
+            "primaryButton": {
+              "title": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "Contact Sales",
+                "de": "Kontakt aufnehmen"
+              },
+              "href": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "/contact?subject=sales"
+              }
+            },
+            "contactPerson": {
+              "name": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "Markus Fensterer"
+              },
+              "role": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "CEO",
+                "de": "Geschäftsführer"
+              },
+              "photo": {
+                "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2Fd97e1c7c6be348fe8a829f240bfdb092"
+              }
+            },
+            "description": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Get in touch with our sales team to learn more about our services and how we can help you.",
+              "de": "Setzen Sie sich mit unserem Vertrieb in Verbindung, um mehr über unsere Dienstleistungen zu erfahren und wie wir Ihnen helfen können."
+            }
+          }
+        }
+      }
+    ],
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "modelId": "4cb9e0d52f074460bcffc26526b7ffc3",
+  "query": [],
+  "published": "published",
+  "firstPublished": 1724683691683,
+  "testRatio": 1,
+  "lastUpdated": 1726745261296,
+  "createdDate": 1724683657860,
+  "createdBy": "CSNO6eqxIbfx80k7otXc1Yh2nd63",
+  "meta": {
+    "lastPreviewUrl": "https://metalstack.cloud/en/prices?builder.space=261d63794734410785dd56b8561ba480&builder.user.permissions=read%2Ccreate%2Cpublish%2CeditCode%2CeditDesigns%2Cadmin%2CeditLayouts%2CeditLayers&builder.user.role.name=Admin&builder.user.role.id=admin&builder.cachebust=true&builder.preview=prices&builder.noCache=true&builder.allowTextEdit=true&__builder_editing__=true&builder.overrides.prices=a85e7810ad294af2ac3f01660920841c&builder.overrides.a85e7810ad294af2ac3f01660920841c=a85e7810ad294af2ac3f01660920841c&builder.options.locale=Default",
+    "kind": "component",
+    "componentsUsed": {
+      "CTA": 1,
+      "Container": 1,
+      "CustomText": 3,
+      "Row": 1,
+      "Section": 1,
+      "Divider": 1
+    },
+    "hasLinks": false,
+    "breakpoints": {
+      "small": 640,
+      "medium": 1279
+    }
+  },
+  "variations": {},
+  "name": "Prices",
+  "id": "cef460712750475f8fd99df5007c2da4",
+  "rev": "j0m3afyxpbr",
+  "@originOrg": "261d63794734410785dd56b8561ba480",
+  "@originContentId": "a85e7810ad294af2ac3f01660920841c",
+  "@originModelId": "c272fdea786842c29e0f7b80c918dfd8"
+}

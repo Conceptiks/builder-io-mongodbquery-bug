@@ -1,0 +1,240 @@
+{
+  "lastUpdatedBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "folders": [],
+  "previewUrl": "https://metalstack.cloud/en/__builder_editing__",
+  "data": {
+    "inputs": [
+      {
+        "broadcast": false,
+        "hideFromUI": false,
+        "hidden": false,
+        "advanced": false,
+        "@type": "@builder.io/core:Field",
+        "hideFromFieldsEditor": false,
+        "autoFocus": false,
+        "type": "text",
+        "mandatory": false,
+        "required": false,
+        "defaultCollapsed": false,
+        "permissionsRequiredToEdit": "",
+        "showIf": "",
+        "copyOnAdd": true,
+        "bubble": false,
+        "disallowRemove": false,
+        "simpleTextOnly": false,
+        "model": "",
+        "behavior": "",
+        "onChange": "",
+        "subFields": [],
+        "helperText": "",
+        "meta": {},
+        "showTemplatePicker": true,
+        "name": "newField0",
+        "noPhotoPicker": false,
+        "supportsAiGeneration": false
+      }
+    ],
+    "themeId": false,
+    "description": {
+      "de": "metalstack.cloud Impressum",
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "Imprint of metalstack.cloud"
+    },
+    "title": {
+      "de": "Impressum",
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "Imprint"
+    },
+    "noIndex": true,
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-f7ac6b946c83451096ba205fb468ac9b",
+        "meta": {
+          "transformed.title": "localized",
+          "localizedTextInputs": [
+            "title",
+            "subtitle"
+          ],
+          "transformed.subtitle": "localized",
+          "previousId": "builder-3561a7fc105044f19cf735e2b5673e83"
+        },
+        "component": {
+          "name": "Hero",
+          "options": {
+            "slanted": true,
+            "blur": true,
+            "backgroundImage": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F4f594f2e74a5450c9d5e3f88a74a1d3e",
+            "title": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Imprint",
+              "de": "Impressum"
+            },
+            "subtitle": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Currently only available in German\n",
+              "de": " "
+            },
+            "highlightBanner": {
+              "text": {
+                "@type": "@builder.io/core:LocalizedValue"
+              },
+              "cta": {
+                "@type": "@builder.io/core:LocalizedValue"
+              },
+              "href": {
+                "@type": "@builder.io/core:LocalizedValue"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-5108371298e94b6c8ed663ace8a2b782",
+            "meta": {
+              "localizedTextInputs": [
+                "title"
+              ],
+              "previousId": "builder-3d11837c0ada458ea4889868253b68cc"
+            },
+            "component": {
+              "name": "UpdatedAt",
+              "options": {
+                "title": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Last update on",
+                  "de": "Letzte Aktualisierung am"
+                }
+              }
+            }
+          }
+        ],
+        "responsiveStyles": {
+          "large": {
+            "position": "relative"
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-d86041acd3144ab9ba40457e40939979",
+        "meta": {
+          "previousId": "builder-2aef4fb238314b7aa54d222c7e0c45e7"
+        },
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": false,
+            "id": "id"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-9be3a044b69d4495aea64ffaf0caaf77",
+            "meta": {
+              "previousId": "builder-4b7690e1e4614efba566a6eaa8988d31"
+            },
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-8091be1075234f7d9ecdbe90dd57fa14",
+                "meta": {
+                  "previousId": "builder-9674a908a8384505a45ae87cc5433c31"
+                },
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-1e21fc90748b42d3996b392997b23264",
+                    "meta": {
+                      "previousId": "builder-433b5680ed80486995d9dbd8923b0122"
+                    },
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "<h5><strong>Anschrift</strong></h5><p>x-cellent technologies GmbH</p><p>Rosenkavalierplatz 10</p><p>81925 München</p><p>Germany</p><p><br></p><h5><strong>Telefon</strong></h5><p>+49 (0) 89 929274 - 0</p><p><br></p><h5><strong>Vertretungsberechtigte Geschäftsführer</strong></h5><p>Markus Fensterer</p><p><br></p><h5><strong>E-Mail</strong></h5><p>Für allgemeine Fragen: info@x-cellent.com</p><p><br></p><h5><strong>Umsatzsteuer-Identifikationsnummer</strong></h5><p>DE 197111444</p><p><br></p><h5><strong>Registereintragungen</strong></h5><p>Handelsregister: Amtsgericht München, HRB 121329</p><p><br></p><h5><strong>Verantwortlich für den Inhalt nach §55 Abs. 2 RStrV:</strong></h5><p>Markus Fensterer</p><p>Rosenkavalierplatz 10</p><p>81925 München</p><p><br></p><h5><strong>Haftungsausschluss</strong></h5><p><br></p><p><strong>Haftung für Inhalte</strong></p><p>Die Inhalte des Internetauftritts wurden mit größtmöglicher Sorgfalt und nach bestem Gewissen erstellt. Dennoch übernimmt x-cellent technologies GmbH (nachstehend \"x-cellent\") keine Gewähr für die Aktualität, Vollständigkeit und Richtigkeit der bereitgestellten Seiten und Inhalte. x-cellent ist als der Anbieter dieser Webseite gemäß § 7 Abs. 1 TMG für eigene Inhalte und bereitgestellte Informationen auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich; nach den §§ 8 bis 10 TMG jedoch nicht verpflichtet, die übermittelten oder gespeicherten fremden Informationen zu überwachen. Eine Entfernung oder Sperrung dieser Inhalte erfolgt umgehend ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung. Eine Haftung ist erst ab dem Zeitpunkt der Kenntniserlangung möglich.</p><p><br></p><p><strong>Haftung für Links</strong></p><p>Die Webseite enthält sog. „externe Links“ (Verlinkungen) zu anderen Webseiten, auf deren Inhalt x-cellent keinen Einfluss hat. Aus diesem Grund kann x-cellent für diese Inhalte auch keine Gewähr übernehmen. Für die Inhalte und Richtigkeit der bereitgestellten Informationen ist der jeweilige Anbieter der verlinkten Webseite verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist für x-cellent jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung unzumutbar. Bei Bekanntwerden einer solchen Rechtsverletzung werden die entsprechenden Links umgehend entfernt.</p><p><br></p><p><strong>Urheberrecht</strong></p><p>Die auf dieser Webseite veröffentlichten Inhalte, Werke und bereitgestellten Informationen unterliegen dem deutschen Urheberrecht und Leistungsschutzrecht. Jede Art der Vervielfältigung, Bearbeitung, Verbreitung, Einspeicherung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung des jeweiligen Rechteinhabers. Das unerlaubte Kopieren/Speichern der bereitgestellten Informationen auf diesen Webseiten ist nicht gestattet und strafbar.</p><p><br></p><p><strong>Bildcredits</strong></p><p>Bildlizenznachweis auf Nachfrage. Wir verwenden Fotos von Oliver Rehbinder, lizensierte und eigene Bilder.</p>"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "lineHeight": "normal",
+                        "height": "auto",
+                        "width": "100%"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "url": "/imprint",
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "modelId": "be4c7e05b74a4aad945cf62fdbec5290",
+  "query": [
+    {
+      "@type": "@builder.io/core:Query",
+      "property": "urlPath",
+      "value": "/imprint",
+      "operator": "is"
+    }
+  ],
+  "published": "published",
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F8879ef0de82b4a71a2193e2bdf3bffc1",
+  "firstPublished": 1716234130141,
+  "testRatio": 1,
+  "lastUpdated": 1726667629064,
+  "createdDate": 1716229145776,
+  "createdBy": "CSNO6eqxIbfx80k7otXc1Yh2nd63",
+  "meta": {
+    "kind": "page",
+    "lastPreviewUrl": "https://metalstack.cloud/en/__builder_editing__?builder.space=261d63794734410785dd56b8561ba480&builder.user.permissions=read%2Ccreate%2Cpublish%2CeditCode%2CeditDesigns%2Cadmin%2CeditLayouts%2CeditLayers&builder.user.role.name=Admin&builder.user.role.id=admin&builder.cachebust=true&builder.preview=page&builder.noCache=true&builder.allowTextEdit=true&__builder_editing__=true&builder.overrides.page=36c00c5a8fde4ba18c02607cfa1fbbca&builder.overrides.36c00c5a8fde4ba18c02607cfa1fbbca=36c00c5a8fde4ba18c02607cfa1fbbca&builder.overrides.page:/en/__builder_editing__=36c00c5a8fde4ba18c02607cfa1fbbca&builder.options.locale=Default",
+    "componentsUsed": {
+      "Container": 1,
+      "Hero": 1,
+      "Row": 1,
+      "UpdatedAt": 1,
+      "Section": 1
+    },
+    "breakpoints": {
+      "small": 640,
+      "medium": 1279
+    },
+    "hasLinks": false
+  },
+  "variations": {},
+  "name": "Imprint",
+  "id": "5cb7aa7addd94a0882a36b4c785226ad",
+  "rev": "5788zhzw3wy",
+  "@originOrg": "261d63794734410785dd56b8561ba480",
+  "@originContentId": "36c00c5a8fde4ba18c02607cfa1fbbca",
+  "@originModelId": "fb587795e2104391b1984bf3d78b597b"
+}

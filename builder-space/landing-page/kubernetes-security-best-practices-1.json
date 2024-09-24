@@ -1,0 +1,736 @@
+{
+  "lastUpdatedBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "folders": [],
+  "previewUrl": "https://metalstack.cloud/en/lp/__builder_editing__",
+  "data": {
+    "description": {
+      "de": "Laden Sie unser kostenloses Whitepaper herunter und profitieren Sie von unserer langjährigen Erfahrung mit sicheren Kubernetes-Bereitstellungen. Schützen Sie Ihre Anwendungen vor Sicherheitsbedrohungen.",
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "Download our free whitepaper to benefit from years of experience in secure Kubernetes deployments. Protect your applications from malicious attacks, data breaches, and other security threats."
+    },
+    "themeId": false,
+    "title": {
+      "de": "Kubernetes Security Best Practices",
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "Kubernetes Security Best Practices"
+    },
+    "noIndex": true,
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-83ea70a14b7e4bbfac5b59d5fd974ab9",
+        "meta": {
+          "localizedTextInputs": [
+            "straplinePillTitle",
+            "formTitle",
+            "enableNecessaryCookies"
+          ],
+          "transformed.hubspotForm.formId": "localized"
+        },
+        "component": {
+          "name": "WhitepaperHero",
+          "options": {
+            "classForm": "",
+            "straplinePillTitle": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Free Whitepaper",
+              "de": "Kostenloses Whitepaper"
+            },
+            "hero": {
+              "highlightBanner": {
+                "text": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "<p><br></p>",
+                  "de": "<p><br></p>"
+                },
+                "cta": {
+                  "@type": "@builder.io/core:LocalizedValue"
+                },
+                "href": {
+                  "@type": "@builder.io/core:LocalizedValue"
+                }
+              },
+              "title": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "Learn how to secure your Kubernetes clusters",
+                "de": "Erfahren Sie, wie Sie Kubernetes Cluster sicher betreiben."
+              },
+              "subtitle": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "Download our free whitepaper to benefit from years of experience in secure Kubernetes deployments. Protect your applications from malicious attacks, data breaches, and other security threats.",
+                "de": "Laden Sie unser kostenloses Whitepaper herunter und profitieren Sie von unserer langjährigen Erfahrung mit sicheren Kubernetes-Bereitstellungen. Schützen Sie Ihre Anwendungen vor Sicherheitsbedrohungen."
+              },
+              "slanted": false,
+              "backgroundImagePosition": "object-left"
+            },
+            "formTitle": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Download our free whitepaper",
+              "de": "Kostenloses Whitepaper herunterladen"
+            },
+            "enableNecessaryCookies": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Please enable cookies to access the form.",
+              "de": "Bitte akzeptieren Sie Cookies, um das Formular anzuzeigen."
+            },
+            "hubspotForm": {
+              "portalId": "25936940",
+              "region": "eu1",
+              "formId": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "0462156b-3f74-428e-ac09-2e1c85eec3a6",
+                "de": "fcb9f4f3-349c-4d45-b0f4-d47205e5405b"
+              }
+            }
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Whitepaper)",
+        "id": "builder-c2ed9da7cec24be79df9077f26cf5aa0",
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": false,
+            "isOverlapped": false,
+            "id": "test",
+            "texture": "none"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-3bcf61f438a74a758dfa1828c2049a44",
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-88454ffddaaf4a3aa20da4a17abeefe3",
+                "meta": {
+                  "localizedTextInputs": [
+                    "title",
+                    "strapline",
+                    "descriptionRich"
+                  ]
+                },
+                "component": {
+                  "name": "SectionIntro",
+                  "options": {
+                    "textStyle": "dark",
+                    "straplineStyle": "primary",
+                    "center": false,
+                    "justifyText": false,
+                    "hyphenate": false,
+                    "splitColumns": false,
+                    "title": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Sharing practical knowledge from years of K8s experience",
+                      "de": "Bewährte Sicherheitspraktiken aus der Praxis"
+                    },
+                    "strapline": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Kubernetes security best practices",
+                      "de": "Kubernetes Sicherheitspraktiken"
+                    },
+                    "descriptionRich": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "<p>Get a headstart and benefit from our years of experience in designing and operating Kubernetes clusters for enterprise customers.</p>",
+                      "de": "<p>Verschaffen Sie sich einen Vorsprung und profitieren Sie von unserer langjährigen Erfahrung bei der Entwicklung und dem Betrieb von Kubernetes-Clustern für Unternehmenskunden.</p>"
+                    }
+                  }
+                }
+              },
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-349f37fbdcee4bd0a9e9c42761e9a41f",
+                "meta": {
+                  "localizedTextInputs": [
+                    "title"
+                  ]
+                },
+                "component": {
+                  "name": "WhitepaperChapters",
+                  "options": {
+                    "title": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Whitepaper chapters",
+                      "de": "Whitepaper-Kapitel (Englisch)"
+                    },
+                    "items": [
+                      {
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Role based access control"
+                        },
+                        "description": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "<p>Configure the foundation of Kubernetes security.</p>"
+                        },
+                        "icon": {
+                          "iconClass": "carbon:number-1",
+                          "size": "lg",
+                          "hexColor": "rgba(0, 79, 255, 1)"
+                        }
+                      },
+                      {
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Network segmentation"
+                        },
+                        "description": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "<p>Limit influence of access breaches.</p>"
+                        },
+                        "icon": {
+                          "iconClass": "carbon:number-2",
+                          "size": "lg",
+                          "hexColor": "rgba(0, 79, 255, 1)"
+                        }
+                      },
+                      {
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Auditing"
+                        },
+                        "description": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "<p>Enable auditing to allow for traceability of actions.</p>"
+                        },
+                        "icon": {
+                          "iconClass": "carbon:number-3",
+                          "size": "lg",
+                          "hexColor": "rgba(0, 79, 255, 1)"
+                        }
+                      },
+                      {
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Admission controllers"
+                        },
+                        "description": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "<p>Enable cluster level policy restrictions.</p>"
+                        },
+                        "icon": {
+                          "iconClass": "carbon:number-4",
+                          "size": "lg",
+                          "hexColor": "rgba(0, 79, 255, 1)"
+                        }
+                      },
+                      {
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Resource quotas"
+                        },
+                        "description": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "<p>Simple safeguards for resource exhaustion and DDoS.</p>"
+                        },
+                        "icon": {
+                          "iconClass": "carbon:number-5",
+                          "size": "lg",
+                          "hexColor": "rgba(0, 79, 255, 1)"
+                        }
+                      },
+                      {
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Secure communication"
+                        },
+                        "description": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "<p>Encrypt data in transit and at rest to prevent data breaches.</p>"
+                        },
+                        "icon": {
+                          "iconClass": "carbon:number-6",
+                          "size": "lg",
+                          "hexColor": "rgba(0, 79, 255, 1)"
+                        }
+                      },
+                      {
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Secure workflow"
+                        },
+                        "description": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "<p>Understand and identity your supply chain as an attack vector.</p>"
+                        },
+                        "icon": {
+                          "iconClass": "carbon:number-7",
+                          "size": "lg",
+                          "hexColor": "rgba(0, 79, 255, 1)"
+                        }
+                      },
+                      {
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Regular updates"
+                        },
+                        "description": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "<p>Patch your cluster regularly to prevent known vulnerabilities.</p>"
+                        },
+                        "icon": {
+                          "iconClass": "carbon:number-8",
+                          "size": "lg",
+                          "hexColor": "rgba(0, 79, 255, 1)"
+                        }
+                      }
+                    ],
+                    "image": {
+                      "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F64e064caf24e42569d8f3175579164a1",
+                      "alt": "Whitepaper Cover"
+                    }
+                  }
+                },
+                "responsiveStyles": {
+                  "large": {
+                    "position": "relative",
+                    "marginLeft": "10px"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Features)",
+        "id": "builder-60571ebfd27a43bba475df144130ba21",
+        "meta": {
+          "previousId": "builder-fefd775ff9d94cef91aa3e5fb336215c"
+        },
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": false,
+            "isOverlapped": false,
+            "gradient": {
+              "startColor": "rgba(0, 79, 255, 1)",
+              "endColor": "rgba(9, 33, 76, 1)",
+              "direction": "to top"
+            },
+            "texture": "none",
+            "id": "cluster-list"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-9d7f7c49676748f0b2c045e356f36682",
+            "meta": {
+              "localizedTextInputs": [
+                "title",
+                "strapline",
+                "description",
+                "descriptionRich"
+              ],
+              "previousId": "builder-2b2b69a9af994940a39d0a995b9851e4"
+            },
+            "component": {
+              "name": "SectionIntro",
+              "options": {
+                "textStyle": "light",
+                "straplineStyle": "tertiary-light",
+                "center": true,
+                "justifyText": false,
+                "hyphenate": false,
+                "splitColumns": true,
+                "title": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Features you will love about metalstack.cloud",
+                  "de": "Funktionen, die Sie an metalstack.cloud lieben werden"
+                },
+                "strapline": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Managed Kubernetes by metalstack.cloud",
+                  "de": "Managed Kubernetes von metalstack.cloud"
+                },
+                "description": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "We offer high-power servers for anyone who requires ultra-fast, highly available compute performance.\r\n\r\n"
+                },
+                "descriptionRich": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "<p><br></p>",
+                  "de": "<p><br></p>"
+                }
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-3701a36a47174174a1948aa48d8a865a",
+            "meta": {
+              "previousId": "builder-8381a3843eb54e6895bec4c9db2605d3"
+            },
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-82cc97c200d34d269de31787899e7ebb",
+                "meta": {
+                  "previousId": "builder-d2d223102a92417e819731b2941e37ed"
+                },
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-085f1069b3a045afa66322d09aace83d",
+                    "component": {
+                      "name": "Grid",
+                      "options": {
+                        "gridColCount": {
+                          "defaultColCount": "grid-cols-1",
+                          "smColCount": "grid-cols-2",
+                          "lgColCount": "grid-cols-2"
+                        },
+                        "gridColSpan": {
+                          "defaultColSpan": "col-span-full",
+                          "smColSpan": "col-span-1",
+                          "lgColSpan": "col-span-1"
+                        },
+                        "verticalGap": 16,
+                        "horizontalGap": 16
+                      }
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-ce3d80b5602045fe991885409b304e15",
+                        "meta": {
+                          "previousId": "builder-623050c2ec1049d793cf66e3ebe7a342",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "light",
+                            "iconStyle": "rounded",
+                            "iconBackgroundColor": "rgba(0, 79, 255, 1)",
+                            "decoration": false,
+                            "icon": {
+                              "style": "dark",
+                              "size": "lg",
+                              "iconClass": "carbon:bare-metal-server",
+                              "hexColor": "rgba(255, 255, 255, 1)"
+                            },
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Managed",
+                              "de": "Managed"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Focus on your business and development needs - we take care of good cloud native services like Kubernetes. The components of our stack are always up-to-date and clusters scale with your demand.",
+                              "de": "Konzentrieren Sie sich auf Ihre Geschäfts- und Entwicklungsanforderungen - wir kümmern uns um gute Cloud-native Services wie Kubernetes. Die Komponenten unseres Stacks sind immer auf dem neuesten Stand und die Cluster skalieren mit Ihren Anforderungen."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-bed9fcd50c5c468f941ba65d3c29a9fe",
+                        "meta": {
+                          "previousId": "builder-7dc1ea9c9ff342fe8741dcfbe13f3324",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "light",
+                            "iconStyle": "rounded",
+                            "iconBackgroundColor": "rgba(0, 79, 255, 1)",
+                            "decoration": false,
+                            "icon": {
+                              "style": "primary",
+                              "size": "lg",
+                              "iconClass": "carbon:document",
+                              "hexColor": "rgba(255, 255, 255, 1)"
+                            },
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Compliant",
+                              "de": "DSGVO-konform"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "metalstack.cloud is engineered and hosted in Germany. Our datacenter is fully ISO27001 certified. Your data stays in the EU and our platform is fully compliant with DSGVO/GDPR.",
+                              "de": "metalstack.cloud wird in Deutschland entwickelt und gehostet. Unser Rechenzentrum ist vollständig nach ISO27001 zertifiziert. Ihre Daten bleiben in der EU und unsere Plattform ist vollständig konform mit DSGVO/GDPR."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-7c5734a19604469798cb8424236dae0c",
+                        "meta": {
+                          "previousId": "builder-b43b117f7ef74348a860703cc0da26ae",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "light",
+                            "iconStyle": "rounded",
+                            "iconBackgroundColor": "rgba(0, 79, 255, 1)",
+                            "decoration": false,
+                            "icon": {
+                              "style": "primary",
+                              "size": "lg",
+                              "iconClass": "carbon:locked",
+                              "hexColor": "rgba(255, 255, 255, 1)"
+                            },
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Secure",
+                              "de": "Sicher"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Our platform is built on top our battle-proven metalstack open source project, used in highly regulated industries. Clusters are not virtualized and run in fully isolated networks. BYOK-encryption is available.",
+                              "de": "Unsere Plattform basiert auf dem bewährten Metalstack-Open-Source-Projekt, das in stark regulierten Branchen eingesetzt wird. Die Cluster sind nicht virtualisiert und werden in vollständig isolierten Netzwerken betrieben. BYOK-Verschlüsselung ist verfügbar."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-b43b117f7ef74348a860703cc0da26ae",
+                        "meta": {
+                          "previousId": "builder-ddc7aa22665542d3a284a86a21a7cffb",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "light",
+                            "iconStyle": "rounded",
+                            "iconBackgroundColor": "rgba(0, 79, 255, 1)",
+                            "decoration": false,
+                            "icon": {
+                              "style": "primary",
+                              "size": "lg",
+                              "iconClass": "carbon:firewall",
+                              "hexColor": "rgba(255, 255, 255, 1)"
+                            },
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "High performance",
+                              "de": "Performant"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "All clusters are provisioned on bare-metal hardware. No virtualization. No noisy neighbours. This allows us to provide you with the best performance and lowest latency possible.",
+                              "de": "Alle Cluster werden auf Bare-Metal-Hardware bereitgestellt. Keine Virtualisierung. Keine lauten Nachbarn. So können wir Ihnen die bestmögliche Leistung und die niedrigste Latenz bieten."
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "position": "relative",
+                        "width": "100%"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-1f24bb0b954549eba74d88c66b5f439e",
+            "meta": {
+              "previousId": "builder-3701a36a47174174a1948aa48d8a865a"
+            },
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-9ea832a4624346ab87a40d6fde941753",
+                "meta": {
+                  "previousId": "builder-82cc97c200d34d269de31787899e7ebb"
+                },
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-bda49d8fc99a402bbd41d4de62a78126",
+                    "meta": {
+                      "localizedTextInputs": [
+                        "title"
+                      ],
+                      "previousId": "builder-14c500a2b2af452599014d1201c83010"
+                    },
+                    "component": {
+                      "name": "Button",
+                      "options": {
+                        "showRightArrow": false,
+                        "style": "white",
+                        "size": "md",
+                        "disabled": false,
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Learn more",
+                          "de": "Mehr erfahren"
+                        },
+                        "href": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "https://metalstack.cloud/"
+                        },
+                        "iconClass": "carbon:arrow-right"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-307a7ece987e4f6691c3fcd42ad58fde",
+                    "meta": {
+                      "localizedTextInputs": [
+                        "title"
+                      ],
+                      "previousId": "builder-bda49d8fc99a402bbd41d4de62a78126"
+                    },
+                    "component": {
+                      "name": "Button",
+                      "options": {
+                        "showRightArrow": false,
+                        "style": "black",
+                        "size": "md",
+                        "disabled": false,
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Sign up",
+                          "de": "Registrieren"
+                        },
+                        "href": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "https://console.metalstack.cloud/"
+                        },
+                        "iconClass": "carbon:user"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "paddingTop": "48px"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "url": "/lp/kubernetes-security-best-practices",
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "modelId": "675fc791dbd44e228e71567c552ead7e",
+  "query": [
+    {
+      "@type": "@builder.io/core:Query",
+      "property": "urlPath",
+      "value": "/lp/kubernetes-security-best-practices",
+      "operator": "is"
+    }
+  ],
+  "published": "published",
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F772126f4087a464daf41c4ce559aa5ee",
+  "firstPublished": 1724057988007,
+  "testRatio": 1,
+  "lastUpdated": 1724671083415,
+  "createdDate": 1724057502237,
+  "createdBy": "CSNO6eqxIbfx80k7otXc1Yh2nd63",
+  "meta": {
+    "kind": "page",
+    "lastPreviewUrl": "https://metalstack.cloud/en/lp/__builder_editing__?builder.space=261d63794734410785dd56b8561ba480&builder.user.permissions=read%2Ccreate%2Cpublish%2CeditCode%2CeditDesigns%2Cadmin%2CeditLayouts%2CeditLayers&builder.user.role.name=Admin&builder.user.role.id=admin&builder.cachebust=true&builder.preview=landing-page&builder.noCache=true&builder.allowTextEdit=true&__builder_editing__=true&builder.overrides.landing-page=7f59c595e64f426cad121fbf7fa016d0&builder.overrides.7f59c595e64f426cad121fbf7fa016d0=7f59c595e64f426cad121fbf7fa016d0&builder.overrides.landing-page:/en/lp/__builder_editing__=7f59c595e64f426cad121fbf7fa016d0&builder.options.locale=Default",
+    "componentsUsed": {
+      "Container": 2,
+      "FeatureItem": 4,
+      "Button": 2,
+      "Grid": 1,
+      "Row": 3,
+      "Section": 2,
+      "WhitepaperHero": 1,
+      "WhitepaperChapters": 1,
+      "SectionIntro": 2
+    },
+    "hasLinks": false,
+    "breakpoints": {
+      "small": 640,
+      "medium": 1279
+    }
+  },
+  "variations": {},
+  "name": "Kubernetes Security Best Practices",
+  "id": "aaf4bb4859484e3c8a2a6685259a35f9",
+  "rev": "84rhuz13jzg",
+  "@originOrg": "261d63794734410785dd56b8561ba480",
+  "@originContentId": "7f59c595e64f426cad121fbf7fa016d0",
+  "@originModelId": "d334ed036ce04d12ad03c60743f1073a"
+}

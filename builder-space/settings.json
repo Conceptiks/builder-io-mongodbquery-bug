@@ -1,0 +1,280 @@
+{
+  "customTargetingAttributes": {
+    "locale": {
+      "type": "string",
+      "descriptions": [
+        {
+          "name": "de",
+          "description": "Deutsch"
+        },
+        {
+          "name": "de",
+          "description": "Deutsch"
+        }
+      ],
+      "enum": [
+        "de"
+      ]
+    }
+  },
+  "settings": {
+    "estimatedCompanyMonthlyPageviews": {
+      "pageviews": 0,
+      "lastFetched": 1699458088857,
+      "domain": "maximtan.de"
+    },
+    "companySize": "2-50",
+    "attribution": [
+      "search"
+    ],
+    "apps": {
+      "Rebuy": {},
+      "Postscript": {},
+      "Klaviyo": {},
+      "Yotpo": {},
+      "Stamped_io": {}
+    },
+    "allowBuiltInComponents": true,
+    "componentsOnlyMode": false,
+    "account_scoring": {
+      "account_ent_icp_score": 4,
+      "account_ent_icp_pred": "Low",
+      "domain": "maximtan.de",
+      "account_ent_icp_log": 0.5000340040806149,
+      "account_ent_icp_xgb": 0.07514690607786179,
+      "account": "215266c1ecaf4794bab9fcea93a8c2b5"
+    },
+    "zoomData": {
+      "zipCode": "11357",
+      "country": "United States",
+      "descriptionList": [
+        {
+          "description": "Maxim Tan is a company that operates in the Cosmetics industry. It employs 1-5 people and has $1M-$5M of revenue. The company is headquartered in Whitestone, New York."
+        }
+      ],
+      "locationCount": 1,
+      "companyFunding": [],
+      "subUnitCodes": [],
+      "employeeCount": 3,
+      "competitors": [],
+      "revenue": 1346000,
+      "socialMediaUrls": [],
+      "companyStatusDate": "2022-06-29T00:00:00.000Z",
+      "lastFetched": 1699458088875,
+      "logo": "https://res.cloudinary.com/zoominfo-com/image/upload/w_100,h_100,c_fit/maximtan.de",
+      "id": 527231655,
+      "state": "New York",
+      "fax": "",
+      "certificationDate": "",
+      "ultimateParentId": 0,
+      "companyStatus": "ALIVE",
+      "numberOfContactsInZoomInfo": 0,
+      "sicCodes": [
+        {
+          "name": "Personal Services",
+          "id": "72"
+        },
+        {
+          "name": "Miscellaneous Personal Services",
+          "id": "729"
+        },
+        {
+          "name": "Miscellaneous Personal Services, Not Elsewhere Classified",
+          "id": "7299"
+        }
+      ],
+      "parentName": "",
+      "revenueRange": "$1 mil. - $5 mil.",
+      "phone": "(234) 567-8901",
+      "ultimateParentEmployees": 3,
+      "domain": "maximtan.de",
+      "name": "Maxim Tan",
+      "continent": "North America",
+      "naicsCodes": [
+        {
+          "name": "Other Services (except Public Administration)",
+          "id": "81"
+        },
+        {
+          "name": "Personal and Laundry Services",
+          "id": "812"
+        },
+        {
+          "name": "Personal Care Services",
+          "id": "8121"
+        },
+        {
+          "name": "Other Personal Care Services",
+          "id": "81219"
+        },
+        {
+          "name": "Other Personal Care Services",
+          "id": "812199"
+        }
+      ],
+      "subUnitIndustries": [],
+      "city": "Whitestone",
+      "primaryIndustry": [
+        "Consumer Services",
+        "Barber Shops & Beauty Salons"
+      ],
+      "ultimateParentRevenue": 1346,
+      "alexaRank": "0",
+      "totalFundingAmount": 0,
+      "domainRank": "0",
+      "recentFundingDate": "",
+      "products": [
+        "tan",
+        "maxim"
+      ],
+      "domainList": [
+        "maximtan.de"
+      ],
+      "street": "2231 Redbud Dr",
+      "metroArea": "New York-Newark-Jersey City NY-NJ-PA",
+      "subUnitType": "Unspecified",
+      "certified": false,
+      "website": "www.maximtan.de",
+      "ticker": "",
+      "recentFundingAmount": 0,
+      "employeeGrowth": {
+        "oneYearGrowthRate": "0.0",
+        "employeeGrowthDataPoints": [],
+        "twoYearGrowthRate": "0.0"
+      },
+      "parentId": 0,
+      "ultimateParentName": "",
+      "lastUpdatedDate": "2023-10-31T17:59:00.000Z",
+      "createdDate": "",
+      "employeeRange": "1 - 5",
+      "industries": [
+        "Barber Shops & Beauty Salons",
+        "Consumer Services"
+      ]
+    },
+    "useDefaultMargins": false,
+    "useDefaultStyles": false,
+    "mediaFolders": [
+      {
+        "name": "Production",
+        "id": "b63e47e24ba241d4b88d6fac5bc7d531"
+      }
+    ],
+    "techStack": [
+      "React",
+      "Svelte"
+    ],
+    "customComponents": [
+      "SqlTable",
+      "Test Button",
+      "Hero",
+      "Button",
+      "Section",
+      "AccordionItem",
+      "Signup",
+      "Divider",
+      "Material Table",
+      "Material Tabs",
+      "Tooltip",
+      "Code Block",
+      "IntegrationPrioritySupportTip",
+      "IntegrateButton",
+      "Animated Logo",
+      "Container",
+      "Row",
+      "SectionIntro",
+      "Grid",
+      "FeatureItem",
+      "Icon",
+      "ContentCard",
+      "FeatureCard",
+      "TabGroup",
+      "Partners",
+      "ClickableCard",
+      "Header",
+      "MasonryGrid",
+      "CTA",
+      "OfferCard",
+      "Flex",
+      "FeatureListPanel",
+      "IconText",
+      "StepsGroup",
+      "LegalIntro",
+      "UpdatedAt",
+      "LegalRichText",
+      "ScrollContainer",
+      "ImageCard",
+      "HeaderImageTiles",
+      "TilesHero"
+    ],
+    "onlyAllowSwatchColors": false,
+    "showSitePreviewTab": true,
+    "useDebouncedEdits": true,
+    "reloadPreviewForMobile": true,
+    "triggerContentWebhookOnSpaceOrEnvironmentUpdates": true,
+    "hideLinkUrlInputField": false,
+    "swatchColors": [
+      "rgba(0, 79, 255, 1)",
+      "rgba(9, 33, 76, 1)",
+      "rgba(1, 160, 255, 1)",
+      "rgba(236, 236, 236, 1)",
+      "black",
+      "rgba(250, 204, 21, 1)",
+      "rgba(255, 255, 255, 1)",
+      "rgba(0, 123, 212, 1)",
+      "rgba(117, 205, 255, 1)",
+      "rgba(184, 206, 255, 1)"
+    ],
+    "proxyPreview": false
+  },
+  "type": "space",
+  "name": "metalstack.cloud",
+  "loadPlugins": [],
+  "id": "261d63794734410785dd56b8561ba480",
+  "@version": 6,
+  "cloneInfo": {
+    "contentIdMap": {
+      "e8516df82dc94401bfc494a1a4af2672": "0d00d62e511345ac9a99776a0bc6d45f",
+      "ac5f308400d94cf9a65415aff8b13d54": "61c51abb9214482390e3b9c7cf987cc3",
+      "7f59c595e64f426cad121fbf7fa016d0": "aaf4bb4859484e3c8a2a6685259a35f9",
+      "77f267ba0f0240f79c4925b5e7962558": "bf59ea21307d4926b6ac74ac3ca0a13f",
+      "6f4f78d3eda44b97874b7c815f0d74c6": "dd8046957f1142d5bc7baf9aea82be25",
+      "70f78e1474dd4f86984e0dea3aa1965b": "e18f680009a84987924c17c3cf9a6af0",
+      "62092080b22e435e9c421750dec8b176": "e14fded324ba4e589c0cfff1c2101289",
+      "2a68430f183948bf89c6b08319be17bd": "93488d6a49024cb0b9198e71e10929de",
+      "c1d1287bbea74c80a26beb570cbc1279": "aa2a505cc6de4da181e64cd7b72926d0",
+      "ab66c33a9c654956a01ae439b5642137": "d3ea645f44d9447fa49c7cf4cbff3668",
+      "6ad2bafe92084aa5830fe5c33a7cbb10": "5f4bc5c876114a9c96ef20fd42443e6c",
+      "12c0a588010741c88c8acc2130fa9549": "14c3a633b20d44f087ec45f2fa1c4c2e",
+      "27c95d33416f40f5ae4f6beb63504b28": "525aff3ef7a44d9db67080f75cc9ca8b",
+      "a85e7810ad294af2ac3f01660920841c": "cef460712750475f8fd99df5007c2da4",
+      "3a2601f694374fada7c8cc192e6648bb": "b26423973a6248d8b32d1a2479d62652",
+      "57d4d565a83a4f57aa661de0875f0568": "f7dfbf8071cd43b9838d86e93051f4ee",
+      "b997272b60574f3f9eac0910c74850f7": "8e3dafc3e1f54f4b95e20b7a65fdc9f5",
+      "a389638f682741c8abc90a306667da91": "f17078fdecb04e15ad290a9950daaaf1",
+      "c6e2e20030694686bd78c78083f17e54": "4c47a1c42a1b47fcbda3f85220ef9aca",
+      "374ebd9de87d47e9be0616bbb1802e65": "1059f3d32cba4ef18c9246cddab2cbff",
+      "fe9b4170b9f840af86f120fc6388620b": "af2023637c1a45579e477ec4a81776cb",
+      "d2c33f94ae1042fd819514c74cca526c": "6acb29527d05479aabb3bad34b105794",
+      "2d3dbf92fbeb4053a9ffb43a9c6a7b58": "eed1dab11ef6475b80863b79d68a1fcf",
+      "4e7357f458db4f808c283a9a55176a57": "d40f26dcaeef4e1ba585f15d1952262f",
+      "3d480e4c8532442ca13fd1c5e4611ae6": "296a03bcf5be4367a4f7513c70ad19ca",
+      "36c00c5a8fde4ba18c02607cfa1fbbca": "5cb7aa7addd94a0882a36b4c785226ad"
+    },
+    "modelIdMap": {
+      "2fbd715c8ad64af8a91d46959fd495a3": "a14b95a3118e42108a8653578b5c36af",
+      "728c25ef92b842bead3fe8aa3d4b1376": "2efc93ddd5794a8587bdff56cc867ab8",
+      "d334ed036ce04d12ad03c60743f1073a": "675fc791dbd44e228e71567c552ead7e",
+      "b1a560ac01224f63afdcf3761e9a422b": "a6f5d6d8a1144110a10fcd30555825d9",
+      "2fea5106b9e74948ac33b151e4d61f10": "f1595f8c70294a7b865e6343d2fdbb04",
+      "bb77b4d650884533b9f84c7411055bda": "30db35a7a3d44775b739e5cbe47c15ce",
+      "8ee8560833d9432290e7d33a3bf3650b": "c6c28eccd86444c7814468cb1708ef2a",
+      "54938ba896d94e05a81a6e04283ebd74": "fde88d40ec8845cea89b888c7a760a91",
+      "91bcd4c1213a4e61821b4f504881e531": "22fa92b8e8c046de8ffd1eb124e4295a",
+      "c272fdea786842c29e0f7b80c918dfd8": "4cb9e0d52f074460bcffc26526b7ffc3",
+      "625631838ad64e2388c1b3123a78c283": "7086ed8993d34b95a0208ec17cbabc2c",
+      "75f0fa85a3f4490c91d1a313104df537": "963771961225462fb7e91d82d301238b",
+      "fb587795e2104391b1984bf3d78b597b": "be4c7e05b74a4aad945cf62fdbec5290"
+    }
+  }
+}

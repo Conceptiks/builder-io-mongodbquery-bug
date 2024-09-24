@@ -1,0 +1,89 @@
+{
+  "lastUpdatedBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "folders": [],
+  "data": {
+    "links": [
+      {
+        "href": "/",
+        "title": {
+          "de": "Übersicht",
+          "@type": "@builder.io/core:LocalizedValue",
+          "Default": "Overview"
+        },
+        "dropdown": []
+      },
+      {
+        "href": "",
+        "title": {
+          "de": "Lösungen",
+          "@type": "@builder.io/core:LocalizedValue",
+          "Default": "Solutions"
+        },
+        "dropdown": [
+          {
+            "href": "/solutions/artificial-intelligence",
+            "title": {
+              "de": "Künstliche Intelligenz",
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Artificial Intelligence"
+            }
+          },
+          {
+            "href": "/solutions/it-security",
+            "title": {
+              "de": "IT-Sicherheit",
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "IT Security"
+            }
+          },
+          {
+            "href": "/industries/media-and-entertainment",
+            "title": {
+              "de": "Medien und Entertainment",
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Media and Entertainment"
+            }
+          }
+        ]
+      },
+      {
+        "href": "/prices",
+        "title": {
+          "de": "Preise",
+          "@type": "@builder.io/core:LocalizedValue",
+          "Default": "Pricing"
+        }
+      },
+      {
+        "href": "/on-premises",
+        "title": {
+          "@type": "@builder.io/core:LocalizedValue",
+          "Default": "On Premises"
+        }
+      }
+    ]
+  },
+  "modelId": "963771961225462fb7e91d82d301238b",
+  "query": [],
+  "published": "published",
+  "firstPublished": 1716387897394,
+  "testRatio": 1,
+  "lastUpdated": 1723551746933,
+  "createdDate": 1716387550242,
+  "createdBy": "CSNO6eqxIbfx80k7otXc1Yh2nd63",
+  "meta": {
+    "lastPreviewUrl": "",
+    "kind": "data",
+    "breakpoints": {
+      "small": 640,
+      "medium": 1279
+    }
+  },
+  "variations": {},
+  "name": "Navigation Links",
+  "id": "f17078fdecb04e15ad290a9950daaaf1",
+  "rev": "iu32dgs9pk",
+  "@originOrg": "261d63794734410785dd56b8561ba480",
+  "@originContentId": "a389638f682741c8abc90a306667da91",
+  "@originModelId": "75f0fa85a3f4490c91d1a313104df537"
+}

@@ -1,0 +1,2619 @@
+{
+  "lastUpdatedBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "folders": [],
+  "previewUrl": "https://metalstack.cloud/en/__builder_editing__",
+  "data": {
+    "httpRequests": {
+      "faqList": "https://cdn.builder.io/api/v3/content/faq-list/c1d1287bbea74c80a26beb570cbc1279?apiKey=261d63794734410785dd56b8561ba480&includeRefs=true&fields=data&omit=data.blocks&userAttributes.respectScheduling=true&locale={{state.locale}}"
+    },
+    "inputs": [],
+    "themeId": false,
+    "description": {
+      "de": "Cloud-Services mit Mandantentrennung für anspruchsvolle Workloads.",
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "Cloud services with tenant separation for demanding workloads."
+    },
+    "title": {
+      "de": "Managed Kubernetes auf Bare Metal.",
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "Managed Kubernetes. Run on bare metal."
+    },
+    "noIndex": false,
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-189e67d9a068416383fccd4c9112c09e",
+        "meta": {
+          "localizedTextInputs": [
+            "title",
+            "subtitle"
+          ]
+        },
+        "component": {
+          "name": "Hero",
+          "options": {
+            "slanted": true,
+            "blur": false,
+            "title": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Managed Kubernetes. Run on bare metal.",
+              "de": "Managed Kubernetes auf Bare Metal."
+            },
+            "highlightBanner": {
+              "text": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "<p>Secure your free testing period.</p>",
+                "de": "<p>Sichern Sie sich Ihren kostenlosen Testzeitraum.</p>"
+              },
+              "cta": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "Sign up now",
+                "de": "Jetzt registrieren"
+              },
+              "href": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "https://console.metalstack.cloud"
+              }
+            },
+            "subtitle": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Cloud services with tenant separation for demanding workloads.",
+              "de": "Cloud-Services mit Mandantentrennung für anspruchsvolle Workloads."
+            },
+            "backgroundImage": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F04be30e9403b4897b32f90f2451d2031"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-7ade30b30147411f9f5755480d4f734c",
+            "component": {
+              "name": "TrustIcons",
+              "options": {
+                "trustElements": [
+                  {
+                    "alt": "Trustworthy",
+                    "name": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Hosted in Germany",
+                      "de": "Gehosted in Deutschland"
+                    },
+                    "icon": {
+                      "iconClass": "material-symbols:cloud",
+                      "hexColor": "rgba(255, 255, 255, 1)",
+                      "size": "xl"
+                    }
+                  },
+                  {
+                    "alt": "Trustworthy",
+                    "name": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "GDPR compliant",
+                      "de": "DSGVO-konform"
+                    },
+                    "icon": {
+                      "iconClass": "material-symbols:shield-lock",
+                      "hexColor": "rgba(255, 255, 255, 1)",
+                      "size": "xl"
+                    }
+                  },
+                  {
+                    "alt": "Trustworthy",
+                    "name": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Based on open source",
+                      "de": "Basiert auf Open Source"
+                    },
+                    "img": {
+                      "alt": ""
+                    },
+                    "icon": {
+                      "iconClass": "raphael:opensource",
+                      "hexColor": "rgba(255, 255, 255, 1)",
+                      "size": "xl"
+                    }
+                  }
+                ]
+              }
+            },
+            "responsiveStyles": {
+              "large": {
+                "marginTop": "20px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-7f5334eb49594671a7bbf929ac3261a7",
+            "meta": {
+              "localizedTextInputs": [
+                "title"
+              ]
+            },
+            "component": {
+              "name": "Button",
+              "options": {
+                "title": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Contact us",
+                  "de": "Kontakt aufnehmen"
+                },
+                "href": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "/contact?subject=general",
+                  "de": "/contact"
+                },
+                "style": "white",
+                "showArrowRight": true,
+                "showRightArrow": true,
+                "size": "md"
+              }
+            },
+            "responsiveStyles": {
+              "large": {
+                "paddingTop": "32px"
+              }
+            }
+          }
+        ],
+        "responsiveStyles": {
+          "large": {
+            "pointerEvents": "auto",
+            "display": "flex"
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Features you will love about metalstack.cloud)",
+        "id": "builder-f2a0ca35d72e407f8103aeae34e16384",
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": false,
+            "isOverlapped": false,
+            "id": "features"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-1a6c78e22f274c92b5128d2fd94bd5ca",
+            "meta": {
+              "localizedTextInputs": [
+                "title",
+                "strapline",
+                "descriptionRich"
+              ]
+            },
+            "component": {
+              "name": "SectionIntro",
+              "options": {
+                "textStyle": "dark",
+                "straplineStyle": "primary",
+                "center": false,
+                "justifyText": false,
+                "hyphenate": false,
+                "splitColumns": false,
+                "title": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Features you will love about metalstack.cloud",
+                  "de": "Funktionen, die Sie an metalstack.cloud lieben werden"
+                },
+                "strapline": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": ""
+                },
+                "descriptionRich": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": ""
+                }
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-3019dfec18a34fda89fe0c7e03eec3b8",
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-1a65da94b4b848358d306761798d5100",
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-02e104e3bcf94302a15640250554df68",
+                    "component": {
+                      "name": "Grid",
+                      "options": {
+                        "gridColCount": {
+                          "defaultColCount": "grid-cols-1",
+                          "smColCount": "grid-cols-2",
+                          "lgColCount": "grid-cols-4"
+                        },
+                        "gridColSpan": {
+                          "defaultColSpan": "col-span-full",
+                          "smColSpan": "col-span-1",
+                          "lgColSpan": "col-span-1"
+                        },
+                        "verticalGap": 16,
+                        "horizontalGap": 16
+                      }
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-3ba6a001970441a89373f316233e79f5",
+                        "meta": {
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "dark",
+                            "iconStyle": "bare",
+                            "iconBackgroundColor": "#f8f9fa",
+                            "decoration": true,
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Managed",
+                              "de": "Managed"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Focus on your business and development needs - we take care of good cloud native services like Kubernetes. The components of our stack are always up-to-date and clusters scale with your demand.",
+                              "de": "Konzentrieren Sie sich auf Ihre Geschäfts- und Entwicklungsanforderungen - wir kümmern uns um gute Cloud-native Dienste wie Kubernetes. Die Komponenten unseres Stacks sind immer auf dem aktuellstem Stand und die Cluster skalieren mit Ihrem Bedarf."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-206fd8986f12409a8e2f8cf873de1b9a",
+                        "meta": {
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ],
+                          "previousId": "builder-3ba6a001970441a89373f316233e79f5"
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "dark",
+                            "iconStyle": "bare",
+                            "iconBackgroundColor": "#f8f9fa",
+                            "decoration": true,
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Secure",
+                              "de": "Sicher"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Your data stays in the EU and our platform is fully compliant with DSGVO/GDPR. Tenants are strongly separated. If you want to enhance security further, you may bring your own key to encrypt your persistent storage. Our data center in Germany is ISO27001 certified.",
+                              "de": "Unsere Plattform ist vollständig DSGVO-konform. Alle Kunden sind physikalisch voneinander getrennt. Außerdem können Sie alle persistenten Daten mit Ihrem eigenen Key verschlüsseln, um die Sicherheit Ihrer Daten weiter zu erhöhen. Unser Rechenzentrum in Deutschland ist ISO27001-zertifiziert."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-00e2e682f2de49f6a89d228bdef9e31f",
+                        "meta": {
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ],
+                          "previousId": "builder-3ba6a001970441a89373f316233e79f5"
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "dark",
+                            "iconStyle": "bare",
+                            "iconBackgroundColor": "#f8f9fa",
+                            "decoration": true,
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Field-Proven",
+                              "de": "Erprobt"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "The underlying technology, metal-stack.io, is completely open source and has been in use at a number of financial institutions since 2020.",
+                              "de": "Die zugrundeliegende Technologie, metal-stack.io, ist vollständig quelloffen und wird bereits seit 2020 von einer Reihe von Finanzinstituten eingesetzt. Dadurch kann das Open-Source-Projekt kontinuierlich weiterentwickelt und verbessert werden."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-b7243d58c3d749a4aa5431ac73c81bc0",
+                        "meta": {
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ],
+                          "previousId": "builder-3ba6a001970441a89373f316233e79f5"
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "dark",
+                            "iconStyle": "bare",
+                            "iconBackgroundColor": "#f8f9fa",
+                            "decoration": true,
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Opinionated Kubernetes Cloud",
+                              "de": "Opinionated Kubernetes Cloud"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "We have chosen reasonable defaults for Kubernetes clusters that facilitate your start with a Kubernetes provider. metalstack.cloud runs on bare-metal. There are no bells and whistles: you automatically get a firewall, private networking and internet gateway.",
+                              "de": "Wir haben intelligente Standardeinstellungen für Kubernetes-Cluster gewählt, die Ihnen den Start erleichtern. metalstack.cloud läuft auf Bare-Metal - ohne Virtualisierung. Es gibt keinen Schnickschnack: Sie erhalten automatisch eine Firewall, ein privates Netzwerk und ein Internet-Gateway."
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "width": "100%"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "small": {
+                    "display": "none"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-df71ef6695ff4790ae5fa0f9dadf662d",
+            "meta": {
+              "localizedTextInputs": [
+                "title",
+                "morePartnersText"
+              ]
+            },
+            "component": {
+              "name": "Partners",
+              "options": {
+                "showHr": true,
+                "title": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Our customers and partners",
+                  "de": "Unsere Kunden und Partner"
+                },
+                "morePartnersText": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "",
+                  "de": ""
+                },
+                "partners": [
+                  {
+                    "href": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "https://www.isecng.de/",
+                      "de": ""
+                    },
+                    "quote": {
+                      "text": {
+                        "@type": "@builder.io/core:LocalizedValue",
+                        "Default": "\"metalstack.cloud offers us the perfect platform to provide our open source XDR and SIEM solutions.\"",
+                        "de": "\"metalstack.cloud bietet uns die perfekte Plattform, um unsere Open Source XDR und SIEM Lösungen bereitzustellen.\""
+                      },
+                      "origin": {
+                        "partnerName": "Felix Roider",
+                        "year": "Senior Security Engineer"
+                      }
+                    },
+                    "img": {
+                      "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2Fb510f829947a47f2abe84fc3e9965776",
+                      "alt": "iSecNG Logo"
+                    }
+                  },
+                  {
+                    "href": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "https://embraceable.ai/"
+                    },
+                    "img": {
+                      "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F9d527d4eeec542bc903f4a4a094a730c",
+                      "alt": "embraceable AI"
+                    },
+                    "quote": {
+                      "text": {
+                        "@type": "@builder.io/core:LocalizedValue",
+                        "Default": "\"Working with metalstack.cloud enables us to host our enterprise AI platform securely, reliably and confidently. This enables us to provide first-class AI solutions in a confidential environment for demanding customer requirements.\"",
+                        "de": "\"Die Zusammenarbeit mit metalstack.cloud ermöglicht uns, unsere Enterprise KI-Plattform sicher, zuverlässig und souverän zu hosten. So können wir erstklassige KI-Lösungen in einer vertraulichen Umgebung für anspruchsvolle Kundenanforderungen bereitstellen.\""
+                      },
+                      "origin": {
+                        "partnerName": "Philipp Redlinger",
+                        "year": "Chief Product Officer & Solution Lead"
+                      }
+                    }
+                  },
+                  {
+                    "href": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "https://www.f-i-ts.de/"
+                    },
+                    "quote": {
+                      "text": {
+                        "@type": "@builder.io/core:LocalizedValue",
+                        "Default": "\"As a user of the underlying metalstack.cloud technology, we have been using the open-source project metal-stack very successfully in production since 2020. Today, we use it to manage a Kubernetes fleet of over 1000 servers in our data center.\"",
+                        "de": "\"Als Nutzer der zugrundeliegenden Technologie der metalstack.cloud setzen wir das Open Source Projekt metal-stack bereits seit 2020 sehr erfolgreich produktiv ein. Heute verwalten wir damit eine Kubernetes-Flotte aus über 1000 Servern in unserem Rechenzentrum.\""
+                      },
+                      "origin": {
+                        "partnerName": "Gero Skopinski",
+                        "year": "Cloud Solutions FI-TS"
+                      }
+                    },
+                    "img": {
+                      "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F2e5a4001270c4f2896ccfcd190bf72cd",
+                      "alt": "Finanz Informatik Technologie Service"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Cluster list)",
+        "id": "builder-fefd775ff9d94cef91aa3e5fb336215c",
+        "meta": {
+          "previousId": "builder-f2a0ca35d72e407f8103aeae34e16384"
+        },
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": false,
+            "isOverlapped": false,
+            "gradient": {
+              "startColor": "rgba(0, 79, 255, 1)",
+              "endColor": "rgba(9, 33, 76, 1)",
+              "direction": "to bottom right"
+            },
+            "texture": "none",
+            "id": "cluster-list"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-8381a3843eb54e6895bec4c9db2605d3",
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-d2d223102a92417e819731b2941e37ed",
+                "meta": {
+                  "previousId": "builder-1a65da94b4b848358d306761798d5100"
+                },
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-654ec90db25b4f02a77640f5a37082aa",
+                    "component": {
+                      "name": "Grid",
+                      "options": {
+                        "gridColCount": {
+                          "defaultColCount": "grid-cols-1",
+                          "smColCount": "grid-cols-2",
+                          "lgColCount": "grid-cols-2"
+                        },
+                        "gridColSpan": {
+                          "defaultColSpan": "col-span-full",
+                          "smColSpan": "col-span-1",
+                          "lgColSpan": "col-span-1"
+                        },
+                        "verticalGap": 16,
+                        "horizontalGap": 16
+                      }
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-78eb124dfed74bee89079ba62ed1ec4d",
+                        "children": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "id": "builder-2c0e805e034b4d1a9b1b6ebbf18b7a20",
+                            "meta": {
+                              "localizedTextInputs": [
+                                "text"
+                              ]
+                            },
+                            "component": {
+                              "name": "CustomText",
+                              "options": {
+                                "text": {
+                                  "@type": "@builder.io/core:LocalizedValue",
+                                  "Default": "With metalstack.cloud, Kubernetes can play out its strengths while reducing complexity.",
+                                  "de": "metalstack.cloud kann die Stärken von Kubernetes ausspielen und gleichzeitig die Komplexität reduzieren."
+                                },
+                                "semanticElement": "h2",
+                                "renderAs": "h2-default",
+                                "textColor": "rgba(255, 255, 255, 1)"
+                              }
+                            },
+                            "responsiveStyles": {
+                              "large": {
+                                "color": "rgba(255, 255, 255, 1)"
+                              }
+                            }
+                          },
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "id": "builder-6c92ec894ac649e0a8b97843183b0f9f",
+                            "meta": {
+                              "localizedTextInputs": [
+                                "text"
+                              ],
+                              "previousId": "builder-2c0e805e034b4d1a9b1b6ebbf18b7a20"
+                            },
+                            "component": {
+                              "name": "CustomText",
+                              "options": {
+                                "text": {
+                                  "@type": "@builder.io/core:LocalizedValue",
+                                  "Default": "We believe in the future of Kubernetes. With unparalleled performance and a strong focus on security, metalstack.cloud offers you the best of Kubernetes, but without the hassle.",
+                                  "de": "Wir glauben an die Zukunft von Kubernetes. Mit unvergleichlicher Leistung und einem starken Fokus auf Sicherheit bietet metalstack.cloud Ihnen das Beste von Kubernetes, aber ohne den ganzen Aufwand."
+                                },
+                                "semanticElement": "p",
+                                "renderAs": "p-default",
+                                "textColor": "rgba(255, 255, 255, 1)"
+                              }
+                            },
+                            "responsiveStyles": {
+                              "large": {
+                                "color": "rgba(255, 255, 255, 1)",
+                                "paddingTop": "32px"
+                              }
+                            }
+                          }
+                        ],
+                        "responsiveStyles": {
+                          "large": {
+                            "flexGrow": "0"
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-9be84ebe443940c48f8adb756ba8940a",
+                        "component": {
+                          "name": "Image",
+                          "options": {
+                            "image": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F56592e181e61446887e814adc05dc9db",
+                            "backgroundSize": "contain",
+                            "backgroundPosition": "center",
+                            "lazy": false,
+                            "fitContent": true,
+                            "aspectRatio": 0.723,
+                            "lockAspectRatio": false,
+                            "height": 777,
+                            "width": 1074
+                          }
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "width": "100%",
+                            "position": "relative",
+                            "minHeight": "20px",
+                            "minWidth": "20px",
+                            "overflow": "hidden"
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "width": "100%"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Physical tenant separation)",
+        "id": "builder-eefcc9cfa3114e0999e2af78b264bc13",
+        "meta": {
+          "previousId": "builder-b5a6046918ba4a5891dadcb3c6684c6c"
+        },
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": false,
+            "id": "tenant-separation",
+            "isOverlapped": false
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-2b2b69a9af994940a39d0a995b9851e4",
+            "meta": {
+              "localizedTextInputs": [
+                "title",
+                "strapline",
+                "description",
+                "descriptionRich"
+              ],
+              "previousId": "builder-23ec66cfb82844b1b79f83f198da966a"
+            },
+            "component": {
+              "name": "SectionIntro",
+              "options": {
+                "textStyle": "dark",
+                "straplineStyle": "primary",
+                "center": false,
+                "justifyText": false,
+                "hyphenate": false,
+                "splitColumns": true,
+                "title": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Physical tenant separation",
+                  "de": "Physische Mandanten-Trennung"
+                },
+                "strapline": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Bare metal as a service",
+                  "de": "Bare-Metal as a Service"
+                },
+                "description": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "We offer high-power servers for anyone who requires ultra-fast, highly available compute performance.\r\n\r\n"
+                },
+                "descriptionRich": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "<p>Nothing comes close to running Kubernetes on bare-metal in terms of performance, cost, and data security. metalstack.cloud provides you with Kubernetes on bare-metal servers, - minus the hassle. Start deploying your services in less than 10 minutes.</p>",
+                  "de": "<p>Nichts kommt der Ausführung von Kubernetes auf Bare-Metal-Servern in Bezug auf Leistung, Kosten und Datensicherheit nahe. metalstack.cloud bietet Ihnen Kubernetes auf Bare-Metal-Servern - ohne den ganzen Aufwand. In weniger als 10 Minuten, können Sie mit der Bereitstellung Ihrer Dienste beginnen.</p>"
+                }
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-bff238ed43c64e64a5a794167c28b162",
+            "meta": {
+              "previousId": "builder-a13a4bdf8984423f90cdb6581ff0a8ed"
+            },
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-def23b1c563844d1882b4ccc6795a94b",
+                "meta": {
+                  "previousId": "builder-b72afb52ddc54ff080dfdd3b553366da"
+                },
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-dea7e017e8914e53a0be9535df1dd01e",
+                    "meta": {
+                      "previousId": "builder-cf99b7f1c60e4c3684d097641f5e5976"
+                    },
+                    "component": {
+                      "name": "Grid",
+                      "options": {
+                        "gridColCount": {
+                          "defaultColCount": "grid-cols-1",
+                          "smColCount": "grid-cols-2",
+                          "lgColCount": "grid-cols-3"
+                        },
+                        "gridColSpan": {
+                          "defaultColSpan": "col-span-full",
+                          "smColSpan": "col-span-1",
+                          "lgColSpan": "col-span-1"
+                        },
+                        "verticalGap": 16,
+                        "horizontalGap": 16
+                      }
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-623050c2ec1049d793cf66e3ebe7a342",
+                        "meta": {
+                          "previousId": "builder-edded792926041f386a757e64fb8bb5b",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "dark",
+                            "iconStyle": "rounded",
+                            "iconBackgroundColor": "rgba(184, 206, 255, 1)",
+                            "decoration": false,
+                            "icon": {
+                              "style": "dark",
+                              "size": "lg",
+                              "iconClass": "carbon:bare-metal-server",
+                              "hexColor": "rgba(0, 79, 255, 1)"
+                            },
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Unique lone tenant architecture",
+                              "de": "Einzigartige Architektur für Bare-Metal-Kubernetes"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Kubernetes worker nodes are physical servers and dedicated to a single tenant. Feels like on-prem, but with the added benefits of the cloud.",
+                              "de": "Kubernetes-Worker-Nodes sind physische Server und einem einzigen Mandanten zugeordnet. Fühlt sich an wie On-Prem, aber mit den zusätzlichen Vorteilen der Cloud."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-7dc1ea9c9ff342fe8741dcfbe13f3324",
+                        "meta": {
+                          "previousId": "builder-c264e4afb3d44bc490e7cf39eb419e8a",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "dark",
+                            "iconStyle": "rounded",
+                            "iconBackgroundColor": "rgba(184, 206, 255, 1)",
+                            "decoration": false,
+                            "icon": {
+                              "style": "primary",
+                              "size": "lg",
+                              "iconClass": "carbon:debug",
+                              "hexColor": "rgba(0, 79, 255, 1)"
+                            },
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Goodbye Meltdown, Farewell Spectre",
+                              "de": "Goodbye Meltdown, Farewell Spectre"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Since you are the only tenant on a server, the risk of an attacker stealing your data when breaching another customer's services is severely reduced.",
+                              "de": "Da Sie der einzige Mieter auf einem Server sind, ist das Risiko, dass ein Angreifer Ihre Daten stiehlt, wenn er in die Dienste eines anderen Kunden eindringt, sehr gering."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-ddc7aa22665542d3a284a86a21a7cffb",
+                        "meta": {
+                          "previousId": "builder-d6bd0671a9404641801819db9cb00894",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "dark",
+                            "iconStyle": "rounded",
+                            "iconBackgroundColor": "rgba(184, 206, 255, 1)",
+                            "decoration": false,
+                            "icon": {
+                              "style": "primary",
+                              "size": "lg",
+                              "iconClass": "carbon:firewall",
+                              "hexColor": "rgba(0, 79, 255, 1)"
+                            },
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Access to Firewall and IDS Events",
+                              "de": "Zugriff auf Firewall- und IDS-Ereignisse"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "You have full access to firewall and IDS logs from your Kubernetes cluster.",
+                              "de": "Sie haben vollen Zugriff auf Firewall- und IDS-Protokolle aus Ihrem Kubernetes-Cluster."
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "width": "100%"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Managed Kubernetes)",
+        "id": "builder-28373185daa744128b0faa00887461e5",
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": false,
+            "isOverlapped": false,
+            "gradient": {
+              "startColor": "rgba(0, 79, 255, 1)",
+              "endColor": "rgba(9, 33, 76, 1)",
+              "direction": "to top"
+            },
+            "id": "managed-kubernetes"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "layerName": "SectionIntro",
+            "id": "builder-d5461ef1ff81481b84bdfa642a04d0b5",
+            "meta": {
+              "localizedTextInputs": [
+                "title",
+                "strapline",
+                "descriptionRich"
+              ]
+            },
+            "component": {
+              "name": "SectionIntro",
+              "options": {
+                "textStyle": "light",
+                "straplineStyle": "tertiary-light",
+                "center": true,
+                "justifyText": false,
+                "hyphenate": false,
+                "splitColumns": false,
+                "title": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Managed Kubernetes",
+                  "de": "Managed Kubernetes"
+                },
+                "strapline": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Your infrastructure, simplified.",
+                  "de": "Ihre Infrastruktur, vereinfacht."
+                },
+                "descriptionRich": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "<p><span style=\"color: rgb(255, 255, 255);\">Focus on running your business, not your infrastructure. We help by managing your clusters for you. Your metal. Managed by us.</span></p>",
+                  "de": "<p><span style=\"color: rgb(236, 236, 236);\">Konzentrieren Sie sich auf Ihr Geschäft, nicht auf Ihre Infrastruktur. Wir helfen Ihnen, indem wir Ihre Cluster für Sie verwalten. Ihr Metall. Von uns verwaltet.</span></p>"
+                }
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-d1d450ee62964473b8720097b619b968",
+            "component": {
+              "name": "ImageTabGroup",
+              "options": {
+                "features": [
+                  {
+                    "icon": {
+                      "iconClass": "carbon:security",
+                      "size": "lg",
+                      "hexColor": "rgba(117, 205, 255, 1)"
+                    },
+                    "img": {
+                      "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2Fb3d98559e9794b07aeeb53e10423ab4f",
+                      "alt": "Cluster Security"
+                    },
+                    "title": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Security Best-Practices built in",
+                      "de": "Integrierte Best-Practices zur Sicherheit"
+                    },
+                    "description": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Best practice Kubernetes-security standards by default. No need to worry about securing your cluster. We've got you covered.",
+                      "de": "Standardmäßig bewährte Kubernetes-Sicherheitsstandards. Machen Sie sich keine Sorgen um die Sicherheit Ihres Clusters. Wir haben für Sie vorgesorgt."
+                    }
+                  },
+                  {
+                    "icon": {
+                      "iconClass": "carbon:update-now",
+                      "size": "lg",
+                      "hexColor": "rgba(117, 205, 255, 1)"
+                    },
+                    "img": {
+                      "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F3213777d6bfe42ef846747746cac7af2",
+                      "alt": "Cluster Automatic Update"
+                    },
+                    "title": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Automatic Updates",
+                      "de": "Automatische Aktualisierungen"
+                    },
+                    "description": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "We automatically update minor Kubernetes versions and patch the underlying operating systems for you.",
+                      "de": "Wir aktualisieren automatisch kleinere Kubernetes-Versionen und patchen die darunter liegenden Betriebssysteme für Sie."
+                    }
+                  },
+                  {
+                    "icon": {
+                      "iconClass": "carbon:activity",
+                      "size": "lg",
+                      "hexColor": "rgba(117, 205, 255, 1)"
+                    },
+                    "img": {
+                      "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F86cce87035b04d0a80139552e9a6e5c3",
+                      "alt": "Cluster List Health"
+                    },
+                    "title": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Cluster health immediately",
+                      "de": "Cluster-Status"
+                    },
+                    "description": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "At a glance and on the go. Keep and eye on your cluster health at all times.",
+                      "de": "Auf einen Blick und für unterwegs. Behalten Sie die Gesundheit Ihres Clusters jederzeit im Auge."
+                    }
+                  },
+                  {
+                    "icon": {
+                      "iconClass": "carbon:autoscaling",
+                      "size": "lg",
+                      "hexColor": "rgba(117, 205, 255, 1)"
+                    },
+                    "img": {
+                      "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F421e9116f0e74c6db887799de7d8ad52",
+                      "alt": "Cluster Scaling"
+                    },
+                    "title": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Automatic cluster scaling",
+                      "de": "Automatische Cluster-Skalierung"
+                    },
+                    "description": {
+                      "@type": "@builder.io/core:LocalizedValue",
+                      "Default": "Launching your next big product? Rest assured your services are running just fine by automatically scaling based on their load.",
+                      "de": "Sie wollen Ihr nächstes großes Produkt auf den Markt bringen? Ihre Dienste werden gut laufen - denn sie werden automatisch entsprechend ihrer Auslastung skaliert."
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Row (Get to know metalstack.cloud)",
+        "id": "builder-099abced2daf4c2cbdcc25e9fcbc62be",
+        "meta": {
+          "previousId": "builder-48e0fbf04d5b4b29a2899e09cb23467e"
+        },
+        "component": {
+          "name": "Row",
+          "options": {}
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-9554d4be15ba48f89ddc38e34485660c",
+            "meta": {
+              "previousId": "builder-979d167a39cb455c870a4227cd205a2c"
+            },
+            "component": {
+              "name": "Container",
+              "options": {
+                "wide": false,
+                "noPadding": false,
+                "class": ""
+              }
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "layerName": "Columns",
+                "id": "builder-4e627169298c4ee8bda7880ad70a615b",
+                "meta": {
+                  "previousId": "builder-3d119c9bbe92490e934f90e0d7affa5f"
+                },
+                "component": {
+                  "name": "Columns",
+                  "options": {
+                    "columns": [
+                      {
+                        "blocks": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "id": "builder-bf375c5eefdd46e58f86c0ff32b26243",
+                            "meta": {
+                              "transformed.code": "localized",
+                              "localizedTextInputs": [
+                                "code"
+                              ]
+                            },
+                            "component": {
+                              "name": "Custom Code",
+                              "options": {
+                                "scriptsClientOnly": false,
+                                "code": {
+                                  "@type": "@builder.io/core:LocalizedValue",
+                                  "Default": "<div style=\"position: relative; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://customer-9lxsq8nkfwfx6hbk.cloudflarestream.com/a1d7f673034e922bb6982ed545f95584/iframe?muted=true&loop=true&autoplay=true&defaultTextTrack=en&poster=https%3A%2F%2Fcustomer-9lxsq8nkfwfx6hbk.cloudflarestream.com%2Fa1d7f673034e922bb6982ed545f95584%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600\"\n    loading=\"lazy\"\n    style=\"border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;\"\n    allow=\"accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;\"\n    allowfullscreen=\"true\"\n  ></iframe>\n</div>",
+                                  "de": "<div style=\"position: relative; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://customer-9lxsq8nkfwfx6hbk.cloudflarestream.com/a1d7f673034e922bb6982ed545f95584/iframe?muted=true&loop=true&autoplay=true&defaultTextTrack=de&poster=https%3A%2F%2Fcustomer-9lxsq8nkfwfx6hbk.cloudflarestream.com%2Fa1d7f673034e922bb6982ed545f95584%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600\"\n    loading=\"lazy\"\n    style=\"border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;\"\n    allow=\"accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;\"\n    allowfullscreen=\"true\"\n  ></iframe>\n</div>\n"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "width": 66.666666
+                      },
+                      {
+                        "blocks": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "id": "builder-0ed2d1ab26de49479f58e88892bb2be9",
+                            "children": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-b54c236636b6460ab13cf8875d5d6ccb",
+                                "meta": {
+                                  "transformed.text": "localized",
+                                  "localizedTextInputs": [
+                                    "text"
+                                  ]
+                                },
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": {
+                                      "@type": "@builder.io/core:LocalizedValue",
+                                      "Default": "<h1>Get to know metalstack.cloud</h1>",
+                                      "de": "<h1>Lernen Sie<br>metalstack<br>cloud kennen</h1>\n"
+                                    }
+                                  }
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "position": "relative",
+                                    "lineHeight": "normal",
+                                    "height": "auto",
+                                    "paddingTop": "32px",
+                                    "paddingLeft": "32px",
+                                    "paddingRight": "32px"
+                                  },
+                                  "small": {
+                                    "paddingRight": "32px"
+                                  }
+                                }
+                              },
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-29b3d080a765489288af17eec73272e9",
+                                "component": {
+                                  "name": "Image",
+                                  "options": {
+                                    "image": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2Ff89b535f4df74df59de47717e5b10a7e",
+                                    "backgroundSize": "contain",
+                                    "backgroundPosition": "center",
+                                    "lazy": false,
+                                    "fitContent": true,
+                                    "aspectRatio": 0.382,
+                                    "lockAspectRatio": false,
+                                    "height": 100,
+                                    "width": 262,
+                                    "noWebp": true
+                                  }
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "width": "75%",
+                                    "position": "relative",
+                                    "minHeight": "20px",
+                                    "minWidth": "20px",
+                                    "overflow": "hidden",
+                                    "display": "flex",
+                                    "marginLeft": "0px"
+                                  },
+                                  "medium": {
+                                    "display": "none"
+                                  },
+                                  "small": {
+                                    "display": "none"
+                                  }
+                                }
+                              }
+                            ],
+                            "responsiveStyles": {
+                              "large": {
+                                "position": "relative",
+                                "height": "200px"
+                              }
+                            }
+                          }
+                        ],
+                        "width": 33.333333
+                      }
+                    ],
+                    "space": 20,
+                    "stackColumnsAt": "tablet",
+                    "reverseColumnsWhenStacked": false
+                  }
+                },
+                "responsiveStyles": {
+                  "large": {
+                    "width": "100%"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "responsiveStyles": {
+          "large": {
+            "paddingTop": "64px",
+            "paddingBottom": "64px"
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-6ac50d5241144d508a5528a1aa1736b7",
+        "meta": {
+          "previousId": "builder-02ca72ea6f3d4ab3a9c1cebd037ea61b"
+        },
+        "component": {
+          "name": "Divider",
+          "options": {
+            "hasExtraMargin": false
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Compliant by design)",
+        "id": "builder-63acaf1b72854ab68e33895ec3c85b72",
+        "component": {
+          "name": "Symbol",
+          "options": {
+            "symbol": {
+              "data": {},
+              "model": "symbol",
+              "entry": "f7dfbf8071cd43b9838d86e93051f4ee",
+              "ownerId": "261d63794734410785dd56b8561ba480"
+            }
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-02ca72ea6f3d4ab3a9c1cebd037ea61b",
+        "meta": {
+          "previousId": "builder-64878c8c5111422b9797cbfac1e1ecf1"
+        },
+        "component": {
+          "name": "Divider",
+          "options": {
+            "hasExtraMargin": false
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Also included)",
+        "id": "builder-9e13db9baae24d59ab9870c3921e52f0",
+        "component": {
+          "name": "Symbol",
+          "options": {
+            "symbol": {
+              "model": "symbol",
+              "dynamic": false,
+              "data": {},
+              "entry": "8e3dafc3e1f54f4b95e20b7a65fdc9f5",
+              "ownerId": "261d63794734410785dd56b8561ba480"
+            }
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Run your favorite apps)",
+        "id": "builder-b84ab88efbcc41778cea910f35b946bd",
+        "meta": {
+          "previousId": "builder-08779318f4a7465980999b7b3fe5bccf"
+        },
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": true,
+            "isOverlapped": false,
+            "id": "favorite-apps",
+            "texture": "none",
+            "backgroundColor": "rgba(9, 33, 76, 1)"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-9e924bb97547481aaa1703092c9b427e",
+            "meta": {
+              "previousId": "builder-604bd82798d2431390fc7d26a3f52973"
+            },
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-eb0f37248c98418cae70e794ba96c806",
+                "meta": {
+                  "previousId": "builder-b8d83febbf9946fb94d3365aa1ae2829"
+                },
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-f8e511a434224597ac2c2a02f2a271ed",
+                    "meta": {
+                      "previousId": "builder-c585082902c04228980b01f5687fcac8"
+                    },
+                    "component": {
+                      "name": "Columns",
+                      "options": {
+                        "columns": [
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-27dee9333c3b49f4baee02d885d31e4e",
+                                "children": [
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-7c97521bdb524d57bdba8bc71bd8d2e0",
+                                    "meta": {
+                                      "transformed.text": "localized",
+                                      "localizedTextInputs": [
+                                        "text"
+                                      ]
+                                    },
+                                    "component": {
+                                      "name": "Text",
+                                      "options": {
+                                        "text": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "<h2><span style=\"color: rgb(1, 160, 255);\">Everything, from A to Z</span></h2><h1><span style=\"color: rgb(236, 236, 236);\">Run your favorite apps.</span></h1>",
+                                          "de": "<h2><span style=\"color: rgb(1, 160, 255);\">Alles, von A bis Z</span></h2><h1><span style=\"color: rgb(236, 236, 236);\">Bei uns laufen Ihre Lieblingsapps.</span></h1>"
+                                        }
+                                      }
+                                    },
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "position": "relative",
+                                        "lineHeight": "normal",
+                                        "height": "auto",
+                                        "width": "auto",
+                                        "alignSelf": "center",
+                                        "marginRight": "auto"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-b669ec55701b4fc5a2d0176e15d5670f",
+                                    "meta": {
+                                      "previousId": "builder-f69fc6807cf2489d8a7457e68a945100",
+                                      "transformed.text": "localized",
+                                      "localizedTextInputs": [
+                                        "text"
+                                      ]
+                                    },
+                                    "component": {
+                                      "name": "Text",
+                                      "options": {
+                                        "text": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "<p><span style=\"color: rgb(236, 236, 236);\">If it is available as a container image, we can run it. If it is not, we can build one for you.</span></p>",
+                                          "de": "<p><span style=\"color: rgb(236, 236, 236);\">Wenn es als Container-Image verfügbar ist, läuft es bei uns. Wenn nicht, können wir Ihre Container-Images auch bauen.</span></p>"
+                                        }
+                                      }
+                                    },
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "position": "relative",
+                                        "lineHeight": "normal",
+                                        "height": "auto",
+                                        "width": "auto",
+                                        "alignSelf": "center",
+                                        "marginRight": "auto"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "responsiveStyles": {
+                                  "large": {
+                                    "marginBottom": "50px"
+                                  }
+                                }
+                              },
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-3efa102268294fa6b9824121fb78e07e",
+                                "meta": {
+                                  "localizedTextInputs": [
+                                    "title"
+                                  ]
+                                },
+                                "component": {
+                                  "name": "Button",
+                                  "options": {
+                                    "style": "white",
+                                    "size": "md",
+                                    "disabled": false,
+                                    "title": {
+                                      "@type": "@builder.io/core:LocalizedValue",
+                                      "Default": "Contact us",
+                                      "de": "Kontakt aufnehmen"
+                                    },
+                                    "href": {
+                                      "@type": "@builder.io/core:LocalizedValue",
+                                      "Default": "/contact"
+                                    },
+                                    "showRightArrow": true,
+                                    "iconClass": ""
+                                  }
+                                },
+                                "responsiveStyles": {
+                                  "small": {
+                                    "paddingBottom": "32px"
+                                  }
+                                }
+                              }
+                            ],
+                            "width": 33.333333
+                          },
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-e5d096fa21d64e1aaec391618a87c8fb",
+                                "component": {
+                                  "name": "Grid",
+                                  "options": {
+                                    "gridColCount": {
+                                      "defaultColCount": "grid-cols-2",
+                                      "smColCount": "grid-cols-2",
+                                      "lgColCount": "grid-cols-3"
+                                    },
+                                    "gridColSpan": {
+                                      "defaultColSpan": "col-span-1",
+                                      "smColSpan": "col-span-1",
+                                      "lgColSpan": "col-span-1"
+                                    },
+                                    "verticalGap": 16,
+                                    "horizontalGap": 8
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-146b090604c84030baf42f942fe85fbd",
+                                    "meta": {
+                                      "localizedTextInputs": [
+                                        "title",
+                                        "description"
+                                      ],
+                                      "previousId": "builder-1d8c80570b5e4e93a2b28ee7816c2e52"
+                                    },
+                                    "component": {
+                                      "name": "FeatureItem",
+                                      "options": {
+                                        "style": "light",
+                                        "iconStyle": "rounded",
+                                        "iconBackgroundColor": "rgba(255, 255, 255, 1)",
+                                        "decoration": false,
+                                        "title": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "PostgreSQL"
+                                        },
+                                        "description": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Open source RDBMS",
+                                          "de": "Open Source RDBMS"
+                                        },
+                                        "icon": {
+                                          "iconClass": "devicon:postgresql",
+                                          "size": "xl",
+                                          "hexColor": "rgba(255, 255, 255, 1)"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-f55ac888b7434928b37c0c8c449e2c4c",
+                                    "meta": {
+                                      "localizedTextInputs": [
+                                        "title",
+                                        "description"
+                                      ],
+                                      "previousId": "builder-94c0fb46d9e94763954030ae2437af15"
+                                    },
+                                    "component": {
+                                      "name": "FeatureItem",
+                                      "options": {
+                                        "style": "light",
+                                        "iconStyle": "rounded",
+                                        "iconBackgroundColor": "rgba(255, 255, 255, 1)",
+                                        "decoration": false,
+                                        "title": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "ArgoCD"
+                                        },
+                                        "description": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Continuous delivery tool",
+                                          "de": "Continuous-Delivery-Tool"
+                                        },
+                                        "icon": {
+                                          "iconClass": "devicon:argocd",
+                                          "size": "xl",
+                                          "hexColor": "rgba(0, 0, 0, 1)"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-c25293f3277740f1982caed23e1f07cc",
+                                    "meta": {
+                                      "localizedTextInputs": [
+                                        "title",
+                                        "description"
+                                      ],
+                                      "previousId": "builder-6139c18a5ae14bf1981f6837ba9eecd4"
+                                    },
+                                    "component": {
+                                      "name": "FeatureItem",
+                                      "options": {
+                                        "style": "light",
+                                        "iconStyle": "rounded",
+                                        "iconBackgroundColor": "rgba(255, 255, 255, 1)",
+                                        "decoration": false,
+                                        "title": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "GitLab"
+                                        },
+                                        "description": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "DevOps software package",
+                                          "de": "DevOps-Software-Paket"
+                                        },
+                                        "icon": {
+                                          "iconClass": "devicon:gitlab",
+                                          "size": "xl",
+                                          "hexColor": "rgba(255, 255, 255, 1)"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-2521f7cbec6a4f61bb79c70977870f81",
+                                    "meta": {
+                                      "localizedTextInputs": [
+                                        "title",
+                                        "description"
+                                      ],
+                                      "previousId": "builder-a41194e2c6be46a3b37916c961288a6e"
+                                    },
+                                    "component": {
+                                      "name": "FeatureItem",
+                                      "options": {
+                                        "style": "light",
+                                        "iconStyle": "rounded",
+                                        "iconBackgroundColor": "rgba(255, 255, 255, 1)",
+                                        "decoration": false,
+                                        "title": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Redis"
+                                        },
+                                        "description": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Data structure store",
+                                          "de": "Datenstrukturorientierte Datenbank"
+                                        },
+                                        "icon": {
+                                          "iconClass": "devicon:redis",
+                                          "size": "xl",
+                                          "hexColor": "rgba(255, 255, 255, 1)"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-ffbb285c9fcd4e44a3a86a1bb51474ad",
+                                    "meta": {
+                                      "localizedTextInputs": [
+                                        "title",
+                                        "description"
+                                      ],
+                                      "previousId": "builder-046d6b81b5e343c59e0133eec029460a"
+                                    },
+                                    "component": {
+                                      "name": "FeatureItem",
+                                      "options": {
+                                        "style": "light",
+                                        "iconStyle": "rounded",
+                                        "iconBackgroundColor": "rgba(255, 255, 255, 1)",
+                                        "decoration": false,
+                                        "title": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Prometheus"
+                                        },
+                                        "description": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Time series database",
+                                          "de": "Netzwerk-Monitoring"
+                                        },
+                                        "icon": {
+                                          "iconClass": "devicon:prometheus",
+                                          "size": "xl",
+                                          "hexColor": "rgba(255, 255, 255, 1)"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-bc7f6b1398ca4daa8f613662d2c0bc5b",
+                                    "meta": {
+                                      "localizedTextInputs": [
+                                        "title",
+                                        "description"
+                                      ],
+                                      "previousId": "builder-826efd7fef5840d3b81ed8da0e8bd7b8"
+                                    },
+                                    "component": {
+                                      "name": "FeatureItem",
+                                      "options": {
+                                        "style": "light",
+                                        "iconStyle": "rounded",
+                                        "iconBackgroundColor": "rgba(255, 255, 255, 1)",
+                                        "decoration": false,
+                                        "title": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Keycloak"
+                                        },
+                                        "description": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Single sign-on system",
+                                          "de": "Single-Sign-on-System"
+                                        },
+                                        "icon": {
+                                          "iconClass": "simple-icons:keycloak",
+                                          "size": "xl",
+                                          "hexColor": "rgba(0, 0, 0, 1)"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-4f512b59c1be4b8f960b5e74633c8f79",
+                                    "meta": {
+                                      "localizedTextInputs": [
+                                        "title",
+                                        "description"
+                                      ],
+                                      "previousId": "builder-cc0ec7f7f1a84d53993608cc20a37e72"
+                                    },
+                                    "component": {
+                                      "name": "FeatureItem",
+                                      "options": {
+                                        "style": "light",
+                                        "iconStyle": "rounded",
+                                        "iconBackgroundColor": "rgba(255, 255, 255, 1)",
+                                        "decoration": false,
+                                        "title": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Elasticsearch"
+                                        },
+                                        "description": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Search and index",
+                                          "de": "Suche und Index"
+                                        },
+                                        "icon": {
+                                          "iconClass": "devicon:elasticsearch",
+                                          "size": "xl",
+                                          "hexColor": "rgba(255, 255, 255, 1)"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-1770fb78bdb7413e970f5e61e90b027b",
+                                    "meta": {
+                                      "localizedTextInputs": [
+                                        "title",
+                                        "description"
+                                      ],
+                                      "previousId": "builder-12298621152644cbb66dc82e30656edb"
+                                    },
+                                    "component": {
+                                      "name": "FeatureItem",
+                                      "options": {
+                                        "style": "light",
+                                        "iconStyle": "rounded",
+                                        "iconBackgroundColor": "rgba(255, 255, 255, 1)",
+                                        "decoration": false,
+                                        "title": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "MySQL"
+                                        },
+                                        "description": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Open source RDBMS",
+                                          "de": "Open Source RDBMS"
+                                        },
+                                        "icon": {
+                                          "iconClass": "devicon:mysql",
+                                          "size": "xl",
+                                          "hexColor": "rgba(255, 255, 255, 1)"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-57c9097bc87d44499ef8f1ecff82067e",
+                                    "meta": {
+                                      "localizedTextInputs": [
+                                        "title",
+                                        "description"
+                                      ],
+                                      "previousId": "builder-9334e5335f05461c8bc9794bfe28c325"
+                                    },
+                                    "component": {
+                                      "name": "FeatureItem",
+                                      "options": {
+                                        "style": "light",
+                                        "iconStyle": "rounded",
+                                        "iconBackgroundColor": "rgba(255, 255, 255, 1)",
+                                        "decoration": false,
+                                        "title": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Microsoft SQL"
+                                        },
+                                        "description": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "RDBMS"
+                                        },
+                                        "icon": {
+                                          "iconClass": "devicon:microsoftsqlserver",
+                                          "size": "xl",
+                                          "hexColor": "rgba(255, 255, 255, 1)"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-00013685fed44cb0bfd90fa937d84c21",
+                                    "meta": {
+                                      "localizedTextInputs": [
+                                        "title",
+                                        "description"
+                                      ],
+                                      "previousId": "builder-95fae72b914a4af9bf7420bff54a080c"
+                                    },
+                                    "component": {
+                                      "name": "FeatureItem",
+                                      "options": {
+                                        "style": "light",
+                                        "iconStyle": "rounded",
+                                        "iconBackgroundColor": "rgba(255, 255, 255, 1)",
+                                        "decoration": false,
+                                        "title": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "App not listed?",
+                                          "de": "App ist nicht dabei?"
+                                        },
+                                        "description": {
+                                          "@type": "@builder.io/core:LocalizedValue",
+                                          "Default": "Just ask us!",
+                                          "de": "Fragen Sie uns!"
+                                        },
+                                        "icon": {
+                                          "iconClass": "tabler:dots",
+                                          "size": "xl",
+                                          "hexColor": "rgba(0, 0, 0, 1)"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "responsiveStyles": {
+                                  "large": {
+                                    "width": "100%"
+                                  }
+                                }
+                              }
+                            ],
+                            "width": 66.666666
+                          }
+                        ],
+                        "space": 28,
+                        "stackColumnsAt": "tablet",
+                        "reverseColumnsWhenStacked": false
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "width": "100%"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "responsiveStyles": {
+          "large": {
+            "display": "flex"
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Help and support)",
+        "id": "builder-12eebaf2659345119ff5670eb6f8283e",
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": false,
+            "isOverlapped": false,
+            "texture": "grid",
+            "backgroundColor": "rgba(0, 0, 0, 1)",
+            "id": "documentation"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-4964016ec9b047a183db683080a2b8f4",
+            "meta": {
+              "localizedTextInputs": [
+                "title",
+                "strapline",
+                "descriptionRich"
+              ]
+            },
+            "component": {
+              "name": "SectionIntro",
+              "options": {
+                "textStyle": "lighter",
+                "straplineStyle": "primary-light",
+                "center": false,
+                "justifyText": false,
+                "hyphenate": false,
+                "splitColumns": true,
+                "title": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Documentation and Resources",
+                  "de": "Dokumentation und Ressourcen"
+                },
+                "strapline": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Help and support",
+                  "de": "Hilfe und Support"
+                },
+                "descriptionRich": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "<p>Documentation and manuals at your fingertips. We have done everything to ensure that you can use our product without any problems. To this end, we have invested a lot of time in creating comprehensive documentation and additional resources.</p>",
+                  "de": "<p><span style=\"color: rgb(236, 236, 236);\">Dokumentation und Handbücher auf einen Blick. Wir haben alles getan, damit du unsere Produkt ohne Probleme nutzen kannst. Dazu haben wir eine Menge Zeit in die Erstellung einer umfassenden Dokumentation und weiterer Ressourcen investiert.</span></p>"
+                }
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-726692219574430792ebc8f43f29b042",
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-f37860bc50dc406e8821eceac6b98e07",
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": "flex-wrap gap-x-4"
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-148b0396386d4b35b75a75a515329b52",
+                    "meta": {
+                      "localizedTextInputs": [
+                        "title"
+                      ],
+                      "previousId": "builder-114328649cc340a5bc2982eb8fb5f1f4"
+                    },
+                    "component": {
+                      "name": "Button",
+                      "options": {
+                        "style": "white",
+                        "size": "md",
+                        "disabled": false,
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Developer Docs",
+                          "de": "Entwicklerdokumentation"
+                        },
+                        "href": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "/documentation",
+                          "de": ""
+                        },
+                        "iconClass": "carbon:book",
+                        "showRightArrow": true
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "pointerEvents": "auto",
+                        "display": "flex"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-114328649cc340a5bc2982eb8fb5f1f4",
+                    "meta": {
+                      "localizedTextInputs": [
+                        "title"
+                      ]
+                    },
+                    "component": {
+                      "name": "Button",
+                      "options": {
+                        "style": "white",
+                        "size": "md",
+                        "disabled": false,
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Compliance Resources",
+                          "de": "Compliance-Ressourcen"
+                        },
+                        "href": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "/compliance",
+                          "de": ""
+                        },
+                        "iconClass": "carbon:virtual-private-cloud",
+                        "showRightArrow": true
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "pointerEvents": "auto",
+                        "display": "flex"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "marginLeft": "1px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "layerName": "Row",
+            "id": "builder-2382d47d044945a9b82f6292a6889952",
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-644f2fea6d724fa5a527c9e2f4b66c76",
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-de84fed82ffe442aa52661d9e6ea6233",
+                    "component": {
+                      "name": "Grid",
+                      "options": {
+                        "gridColCount": {
+                          "defaultColCount": "grid-cols-1",
+                          "smColCount": "grid-cols-2",
+                          "lgColCount": "grid-cols-2"
+                        },
+                        "gridColSpan": {
+                          "defaultColSpan": "col-span-full",
+                          "smColSpan": "col-span-1",
+                          "lgColSpan": "col-span-1"
+                        },
+                        "verticalGap": 16,
+                        "horizontalGap": 16
+                      }
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-cc567d617350462ca8de2b09047370ed",
+                        "meta": {
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "light",
+                            "iconStyle": "bare",
+                            "iconBackgroundColor": "#f8f9fa",
+                            "decoration": true,
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Developer Documentation",
+                              "de": "Entwicklerdokumentation"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Our developer documentation is made by developers for developers and provides you with the most important information about our product, API endpoints, implementation guides, and code examples. Just take a look and get started!",
+                              "de": "Unsere Entwicklerdokumentation ist von Entwicklern für Entwickler gemacht und bietet dir die wichtigsten Infos zu unserem Produkt, API-Endpunkten, Implementierungsanleitungen und Code-Beispielen. Einfach reinschauen und loslegen!"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-30709dddf497418581e9451da6407097",
+                        "meta": {
+                          "previousId": "builder-cc567d617350462ca8de2b09047370ed",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "FeatureItem",
+                          "options": {
+                            "style": "light",
+                            "iconStyle": "bare",
+                            "iconBackgroundColor": "#f8f9fa",
+                            "decoration": true,
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "User Manual",
+                              "de": "Benutzerhandbuch"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Whether you need help setting up your payment method or have difficulties assigning IPs to a cluster, our user manual is available to you. It is designed to be easy to use.",
+                              "de": "Ob du Hilfe bei der Einrichtung deiner Zahlungsmethode brauchst, oder Schwierigkeiten bei der Zuweisung von IPs zu einem Cluster hast, unser Benutzerhandbuch steht dir zur Verfügung. Wir haben es so gestaltet, dass du dich leicht zurechtfindest."
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "width": "100%",
+                        "paddingTop": "32px"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (FAQ)",
+        "id": "builder-3cdfc74720e949248137efc75a86364a",
+        "meta": {
+          "previousId": "builder-36b54053e64142c6b704c58feb70e67b"
+        },
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": false,
+            "isOverlapped": false,
+            "texture": "none",
+            "backgroundColor": "rgba(255, 255, 255, 1)",
+            "id": "FAQ",
+            "class": ""
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-13efb1105679473c82dbeb6501cf2b40",
+            "meta": {
+              "localizedTextInputs": [
+                "title",
+                "strapline",
+                "descriptionRich"
+              ],
+              "previousId": "builder-bb4fff58a6494b72afb7e1a5efc10ce3"
+            },
+            "component": {
+              "name": "SectionIntro",
+              "options": {
+                "textStyle": "dark",
+                "straplineStyle": "primary",
+                "center": false,
+                "justifyText": false,
+                "hyphenate": false,
+                "splitColumns": false,
+                "title": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Frequently asked questions",
+                  "de": "Häufig gestellte Fragen"
+                },
+                "strapline": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": ""
+                },
+                "descriptionRich": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": ""
+                }
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-9956465ae6be4a34a140259214f7f474",
+            "meta": {
+              "previousId": "builder-e74022fc44334f57952ac9e3b18caf74"
+            },
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-c1fc9ad83b254ee6834f3065de52d7e1",
+                "meta": {
+                  "previousId": "builder-62d5e3a9265f4a6c938fd831e09295a3"
+                },
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-1896899de6ff466c916002853d1fd352",
+                    "meta": {
+                      "previousId": "builder-36e5a1b6846b476784a8c7802adc4ab6"
+                    },
+                    "component": {
+                      "name": "Grid",
+                      "options": {
+                        "gridColCount": {
+                          "defaultColCount": "grid-cols-1",
+                          "smColCount": "grid-cols-2",
+                          "lgColCount": "grid-cols-2"
+                        },
+                        "gridColSpan": {
+                          "defaultColSpan": "col-span-full",
+                          "smColSpan": "col-span-1",
+                          "lgColSpan": "col-span-1"
+                        },
+                        "verticalGap": 4,
+                        "horizontalGap": 4
+                      }
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "layerName": "Left",
+                        "id": "builder-7c19922b07994b918d042e706666605b",
+                        "meta": {
+                          "previousId": "builder-8e265e6c25ea4cefafd9de104e75d8d1"
+                        },
+                        "children": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "bindings": {
+                              "component.options.title": "var _virtual_index=state.itemsItem.question;return _virtual_index",
+                              "component.options.description": "var _virtual_index=state.itemsItem.answer;return _virtual_index",
+                              "show": "var returnValue=function(){var t=[\"general\"],e=(state.faqList.data.items.filter((function(e){return e.tags.some((function(e){return t.includes(e)}))})).findIndex((function(t){return t.question===state.itemsItem.question}))+1)%2==1;return state.itemsItem.tags.some((function(e){return t.includes(e)}))&&e}();return returnValue"
+                            },
+                            "code": {
+                              "bindings": {
+                                "component.options.title": "state.itemsItem.question",
+                                "component.options.description": "state.itemsItem.answer",
+                                "show": "{\r\n    let topics = [\"general\"]; // Note for editor: Edit this for topics\r\n\r\n    // Leave the code below as is. Please don't edit it.\r\n    let topicArray = state.faqList.data.items.filter((item) => \r\n        item.tags.some(tag => topics.includes(tag))\r\n    );\r\n    let itemIndex = topicArray.findIndex((item) => item.question === state.itemsItem.question);\r\n    let showConditionEven = (itemIndex + 1) % 2 === 0; // shows even index-items only, for right column\r\n    let showConditionOdd = (itemIndex + 1) % 2 === 1; // shows odd index-items only, for left column\r\n\r\n    return state.itemsItem.tags.some(tag => topics.includes(tag)) && showConditionOdd;\r\n}"
+                              }
+                            },
+                            "repeat": {
+                              "collection": "state.faqList.data.items"
+                            },
+                            "layerName": "AccordionItem",
+                            "id": "builder-9b4ca9a141bf4b109c53fa5ddf4340df",
+                            "meta": {
+                              "localizedTextInputs": [
+                                "title",
+                                "description"
+                              ],
+                              "previousId": "builder-74b22656399844c58b7cbb70cde53c37"
+                            },
+                            "component": {
+                              "name": "AccordionItem",
+                              "options": {
+                                "iconClass": "",
+                                "title": {
+                                  "@type": "@builder.io/core:LocalizedValue",
+                                  "Default": "Accordion title"
+                                },
+                                "description": {
+                                  "@type": "@builder.io/core:LocalizedValue",
+                                  "Default": "Accordion description"
+                                },
+                                "class": "mb-4"
+                              }
+                            },
+                            "responsiveStyles": {
+                              "large": {
+                                "marginBottom": "16px"
+                              }
+                            }
+                          }
+                        ],
+                        "responsiveStyles": {
+                          "large": {
+                            "marginBottom": "-16px"
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "layerName": "Right",
+                        "id": "builder-40f8c9e801ba47058e6006c159ec6936",
+                        "meta": {
+                          "previousId": "builder-cfa1771818004f329a29a3b263e8d11f"
+                        },
+                        "children": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "bindings": {
+                              "component.options.title": "var _virtual_index=state.itemsItem.question;return _virtual_index",
+                              "component.options.description": "var _virtual_index=state.itemsItem.answer;return _virtual_index",
+                              "show": "var returnValue=function(){var t=[\"general\"],e=(state.faqList.data.items.filter((function(e){return e.tags.some((function(e){return t.includes(e)}))})).findIndex((function(t){return t.question===state.itemsItem.question}))+1)%2==0;return state.itemsItem.tags.some((function(e){return t.includes(e)}))&&e}();return returnValue"
+                            },
+                            "code": {
+                              "bindings": {
+                                "component.options.title": "state.itemsItem.question",
+                                "component.options.description": "state.itemsItem.answer",
+                                "show": "{\r\n    let topics = [\"general\"]; // Note for editor: Edit this for topics\r\n\r\n    // Leave the code below as is. Please don't edit it.\r\n    let topicArray = state.faqList.data.items.filter((item) => \r\n        item.tags.some(tag => topics.includes(tag))\r\n    );\r\n    let itemIndex = topicArray.findIndex((item) => item.question === state.itemsItem.question);\r\n    let showConditionEven = (itemIndex + 1) % 2 === 0; // shows even index-items only, for right column\r\n    let showConditionOdd = (itemIndex + 1) % 2 === 1; // shows odd index-items only, for left column\r\n\r\n    return state.itemsItem.tags.some(tag => topics.includes(tag)) && showConditionEven;\r\n}"
+                              }
+                            },
+                            "repeat": {
+                              "collection": "state.faqList.data.items"
+                            },
+                            "layerName": "AccordionItem",
+                            "id": "builder-9bdf9adb1ac749868bdd3a5e953cafd2",
+                            "meta": {
+                              "localizedTextInputs": [
+                                "title",
+                                "description"
+                              ],
+                              "previousId": "builder-4ebb0c1ad6524185bf95c68143b432cb"
+                            },
+                            "component": {
+                              "name": "AccordionItem",
+                              "options": {
+                                "iconClass": "",
+                                "title": {
+                                  "@type": "@builder.io/core:LocalizedValue",
+                                  "Default": "Accordion title"
+                                },
+                                "description": {
+                                  "@type": "@builder.io/core:LocalizedValue",
+                                  "Default": "Accordion description"
+                                },
+                                "class": "mb-4"
+                              }
+                            },
+                            "responsiveStyles": {
+                              "large": {
+                                "marginBottom": "16px"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "width": "100%"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "position": "relative"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-d43e1c2e2b5b4367a3eab77026af17b3",
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-e1d7f9a2ab5a4a78a7a4c519be0d573b",
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-04d3c5178597452f9862ef53aab18b80",
+                    "meta": {
+                      "localizedTextInputs": [
+                        "title"
+                      ]
+                    },
+                    "component": {
+                      "name": "Button",
+                      "options": {
+                        "showRightArrow": true,
+                        "style": "primary",
+                        "size": "md",
+                        "disabled": false,
+                        "title": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "Read our FAQ",
+                          "de": "FAQ lesen"
+                        },
+                        "href": {
+                          "@type": "@builder.io/core:LocalizedValue",
+                          "Default": "/faq",
+                          "de": ""
+                        },
+                        "iconClass": "carbon:help"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "paddingTop": "32px"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "CTA",
+        "id": "builder-cb2b7174ab4342d4a869de33d7990ca6",
+        "meta": {
+          "localizedTextInputs": [
+            "title",
+            "description"
+          ],
+          "previousId": "builder-7c2d9e7728b9423cb9bdb83a394907af"
+        },
+        "component": {
+          "name": "CTA",
+          "options": {
+            "secondaryButton": true,
+            "title": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Let's talk about your cloud journey.",
+              "de": "Sprechen wir über Ihre Cloud-Pläne!"
+            },
+            "primaryButton": {
+              "title": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "Contact us",
+                "de": "Kontakt aufnehmen"
+              },
+              "href": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "/contact"
+              }
+            },
+            "contactPerson": {
+              "name": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "Eddy Boger"
+              },
+              "role": {
+                "@type": "@builder.io/core:LocalizedValue",
+                "Default": "Director Sales"
+              },
+              "photo": {
+                "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F960ac69bb6244c19a731d7ed33037640",
+                "alt": "Eddy Boger"
+              }
+            },
+            "description": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Get to know metalstack.cloud and spin up a cluster to test our service. Alternatively, you can contact our team to schedule a demo!",
+              "de": "Um metalstack.cloud besser kennenzulernen und all die coolen Dinge zu sehen, die Sie damit bauen können, kontaktieren Sie unser Team, um eine Demo zu vereinbaren!"
+            }
+          }
+        }
+      }
+    ],
+    "url": "/",
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "modelId": "be4c7e05b74a4aad945cf62fdbec5290",
+  "query": [
+    {
+      "@type": "@builder.io/core:Query",
+      "property": "urlPath",
+      "value": "/",
+      "operator": "is"
+    }
+  ],
+  "published": "published",
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F09210c5a17294ac4a6de7894b83159a2",
+  "firstPublished": 1721829637315,
+  "testRatio": 1,
+  "lastUpdated": 1726745256716,
+  "createdDate": 1718279224481,
+  "createdBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "meta": {
+    "kind": "page",
+    "lastPreviewUrl": "https://metalstack.cloud/en/__builder_editing__?builder.space=261d63794734410785dd56b8561ba480&builder.user.permissions=read%2Ccreate%2Cpublish%2CeditCode%2CeditDesigns%2Cadmin%2CeditLayouts%2CeditLayers&builder.user.role.name=Admin&builder.user.role.id=admin&builder.cachebust=true&builder.preview=page&builder.noCache=true&builder.allowTextEdit=true&__builder_editing__=true&builder.overrides.page=d2c33f94ae1042fd819514c74cca526c&builder.overrides.d2c33f94ae1042fd819514c74cca526c=d2c33f94ae1042fd819514c74cca526c&builder.overrides.page:/en/__builder_editing__=d2c33f94ae1042fd819514c74cca526c&builder.options.locale=Default",
+    "componentsUsed": {
+      "AccordionItem": 2,
+      "FeatureItem": 19,
+      "Grid": 6,
+      "ImageTabGroup": 1,
+      "TrustIcons": 1,
+      "Section": 7,
+      "CTA": 1,
+      "Partners": 1,
+      "Container": 9,
+      "CustomText": 2,
+      "Button": 5,
+      "Hero": 1,
+      "Row": 9,
+      "Divider": 2,
+      "SectionIntro": 5
+    },
+    "breakpoints": {
+      "small": 640,
+      "medium": 1279
+    },
+    "hasLinks": false,
+    "dataSources": [
+      {
+        "resourceId": "fde88d40ec8845cea89b888c7a760a91",
+        "dataPluginName": "Builder.io",
+        "propertyName": "faqList",
+        "options": {
+          "single": false,
+          "orderType": "descending",
+          "entry": "_new",
+          "respectScheduling": true,
+          "query": [],
+          "limit": 10,
+          "orderBy": "priority",
+          "locale": "{{state.locale}}",
+          "omit": "data.blocks"
+        },
+        "resourceName": "FAQ List"
+      }
+    ],
+    "symbolsUsed": {
+      "57d4d565a83a4f57aa661de0875f0568": true,
+      "b997272b60574f3f9eac0910c74850f7": true
+    }
+  },
+  "variations": {},
+  "name": "Managed Kubernetes. Run on bare metal.",
+  "id": "6acb29527d05479aabb3bad34b105794",
+  "rev": "5788zhzw3wy",
+  "@originOrg": "261d63794734410785dd56b8561ba480",
+  "@originContentId": "d2c33f94ae1042fd819514c74cca526c",
+  "@originModelId": "fb587795e2104391b1984bf3d78b597b"
+}

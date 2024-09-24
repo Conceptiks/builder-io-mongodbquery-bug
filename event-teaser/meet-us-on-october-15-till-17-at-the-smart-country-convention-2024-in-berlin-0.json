@@ -1,0 +1,46 @@
+{
+  "lastUpdatedBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "folders": [],
+  "data": {
+    "callToActionText": {
+      "de": "Buchen Sie einen Termin!",
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "Book an appointment! "
+    },
+    "href": {
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "/contact"
+    },
+    "text": {
+      "de": "Treffen Sie uns vom 15. bis 17. Oktober auf der Smart Country Convention 2024 in Berlin.",
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "Meet us on October 15 till 17 at the Smart Country Convention 2024 in Berlin."
+    }
+  },
+  "modelId": "a6f5d6d8a1144110a10fcd30555825d9",
+  "endDate": 1729202400000,
+  "query": [],
+  "published": "published",
+  "firstPublished": 1726656580129,
+  "testRatio": 1,
+  "lastUpdated": 1726656580141,
+  "createdDate": 1726656515941,
+  "createdBy": "CSNO6eqxIbfx80k7otXc1Yh2nd63",
+  "meta": {
+    "lastPreviewUrl": "",
+    "kind": "data",
+    "originalContentId": "d4792ec981824b4faac13c0f966603d2",
+    "breakpoints": {
+      "small": 640,
+      "medium": 1279
+    },
+    "winningTest": null
+  },
+  "variations": {},
+  "name": "Meet us on October 15 till 17 at the Smart Country Convention 2024 in Berlin.",
+  "id": "bf59ea21307d4926b6ac74ac3ca0a13f",
+  "rev": "by0a6ri5dp",
+  "@originOrg": "261d63794734410785dd56b8561ba480",
+  "@originContentId": "77f267ba0f0240f79c4925b5e7962558",
+  "@originModelId": "b1a560ac01224f63afdcf3761e9a422b"
+}

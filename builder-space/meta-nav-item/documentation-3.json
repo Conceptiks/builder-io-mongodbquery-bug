@@ -1,0 +1,38 @@
+{
+  "lastUpdatedBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "folders": [],
+  "data": {
+    "href": {
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "/documentation"
+    },
+    "title": {
+      "de": "Dokumentation",
+      "@type": "@builder.io/core:LocalizedValue",
+      "Default": "Documentation"
+    }
+  },
+  "modelId": "22fa92b8e8c046de8ffd1eb124e4295a",
+  "query": [],
+  "published": "published",
+  "firstPublished": 1713796951390,
+  "testRatio": 1,
+  "lastUpdated": 1726667637163,
+  "createdDate": 1713796880917,
+  "createdBy": "CSNO6eqxIbfx80k7otXc1Yh2nd63",
+  "meta": {
+    "kind": "data",
+    "lastPreviewUrl": "",
+    "breakpoints": {
+      "small": 640,
+      "medium": 1279
+    }
+  },
+  "variations": {},
+  "name": "Documentation",
+  "id": "525aff3ef7a44d9db67080f75cc9ca8b",
+  "rev": "zkbh08rzc4",
+  "@originOrg": "261d63794734410785dd56b8561ba480",
+  "@originContentId": "27c95d33416f40f5ae4f6beb63504b28",
+  "@originModelId": "91bcd4c1213a4e61821b4f504881e531"
+}

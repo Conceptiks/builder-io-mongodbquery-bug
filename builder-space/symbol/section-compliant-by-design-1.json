@@ -1,0 +1,321 @@
+{
+  "lastUpdatedBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "folders": [],
+  "previewUrl": "https://metalstack.cloud/en/__builder_symbol__",
+  "data": {
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "layerName": "Section (Compliant by design)",
+        "id": "builder-20b896d6c45c449c8de00c92bc8ffd1e",
+        "meta": {
+          "previousId": "builder-7941c94d147d411283a6186535673d96"
+        },
+        "component": {
+          "name": "Section",
+          "options": {
+            "hasBackground": false,
+            "isOverlapped": false,
+            "id": "Compliant by design"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-384d67a8c1aa4db3b9cf9768dfa2a610",
+            "meta": {
+              "localizedTextInputs": [
+                "title",
+                "strapline",
+                "description",
+                "descriptionRich"
+              ],
+              "previousId": "builder-4989a5de016d4a28b0b9c688949203cf"
+            },
+            "component": {
+              "name": "SectionIntro",
+              "options": {
+                "textStyle": "dark",
+                "straplineStyle": "primary",
+                "center": false,
+                "justifyText": false,
+                "hyphenate": false,
+                "splitColumns": false,
+                "title": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Compliant by design",
+                  "de": "Konformität durch Design"
+                },
+                "strapline": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "Designed with security in mind",
+                  "de": "Entwickelt mit Blick auf die Sicherheit"
+                },
+                "description": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "We offer high-power servers for anyone who requires ultra-fast, highly available compute performance.\r\n\r\n"
+                },
+                "descriptionRich": {
+                  "@type": "@builder.io/core:LocalizedValue",
+                  "Default": "<p>metalstack.cloud is based on the open-source software metal-stack, which is developed for regulated financial institutions. The focus here is on the highest possible security and compliance conformity. This makes metalstack.cloud perfect for running enterprise-grade container applications and provides your workloads with the highest possible performance.</p>",
+                  "de": "<p>metalstack.cloud basiert auf der Open-Source-Software metal-stack, die für regulierte Finanzinstitute entwickelt wird. Der Fokus liegt dabei auf höchstmöglicher Sicherheit und Compliance-Konformität. Damit eignet sich metalstack.cloud perfekt für den Betrieb von Enterprise-Grade-Container-Anwendungen und versorgt Ihre Workloads mit der höchstmöglichen Performance.</p>"
+                },
+                "additionalLogo": {
+                  "src": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2F608e1e086e33487cae92eedbd0ebf5af",
+                  "alt": "Cloud Services Made in Germany Initiative",
+                  "href": "http://www.cloud-services-made-in-germany.de/"
+                }
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-b7c8de33cd934a019b7cb6943a7afc31",
+            "meta": {
+              "previousId": "builder-8a74f0636bb74200a8c7e171d0447500"
+            },
+            "component": {
+              "name": "Row",
+              "options": {}
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-434060fe59c443f4bd1dd43dca56aac5",
+                "meta": {
+                  "previousId": "builder-5e1dfb231b0c4a06b23e1c7077dbe60b"
+                },
+                "component": {
+                  "name": "Container",
+                  "options": {
+                    "wide": false,
+                    "noPadding": false,
+                    "class": ""
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-759a0fe7bcf248a2a52603d820435edc",
+                    "meta": {
+                      "previousId": "builder-8e2a0b306b254e98baafa0ec31a4fe2c"
+                    },
+                    "component": {
+                      "name": "Grid",
+                      "options": {
+                        "gridColCount": {
+                          "defaultColCount": "grid-cols-1",
+                          "smColCount": "grid-cols-2",
+                          "lgColCount": "grid-cols-2"
+                        },
+                        "gridColSpan": {
+                          "defaultColSpan": "col-span-full",
+                          "smColSpan": "col-span-1",
+                          "lgColSpan": "col-span-1"
+                        },
+                        "verticalGap": 4,
+                        "horizontalGap": 4
+                      }
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-e7b40db0e3ff4352b4d54d13ff803232",
+                        "meta": {
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ],
+                          "previousId": "builder-10b60ea59d414a3f85e3aee1d94595d3"
+                        },
+                        "component": {
+                          "name": "AccordionItem",
+                          "options": {
+                            "iconClass": "carbon:virtual-private-cloud",
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "GDPR and DSGVO compliant",
+                              "de": "GDPR- und DSGVO-konform"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "We take care of the DSGVO and GDPR compliant operation for you.",
+                              "de": "Wir kümmern uns für Sie um den DSGVO- und GDPR-konformen Betrieb."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-7f6e64ee7067414caed5d43b3889e376",
+                        "meta": {
+                          "previousId": "builder-bc4a0222f3e0422293a3c1e99c31fa93",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "AccordionItem",
+                          "options": {
+                            "iconClass": "carbon:earth-europe-africa",
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Developed and Hosted in Germany",
+                              "de": "Entwickelt und gehostet in Deutschland"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "We are a German company and only host in German datacenters.",
+                              "de": "Wir sind ein deutsches Unternehmen und hosten nur in deutschen Rechenzentren."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-438102dce1b94f6a8df9aa9ccd9fca35",
+                        "meta": {
+                          "previousId": "builder-769d8c95b1c446df9812847843b5d4f9",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "AccordionItem",
+                          "options": {
+                            "iconClass": "carbon:bare-metal-server",
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Physical tenant separation",
+                              "de": "Physische Mandanten-Trennung"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Like on-prem, you are the only one on your hardware.",
+                              "de": "Wie beim On-Premise-System sind Sie der Einzige, der auf Ihrer Hardware arbeitet."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-397202041a134bf2ac9efa16c375db35",
+                        "meta": {
+                          "previousId": "builder-e30e1a3639334890bba66cfd7fb6bf6b",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "AccordionItem",
+                          "options": {
+                            "iconClass": "carbon:hardware-security-module",
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Bring your own key",
+                              "de": "Bring your own key"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Encrypt your persistent storage with your own key.",
+                              "de": "Verschlüsseln Sie Ihren persistenten Speicher mit Ihrem eigenem Key."
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-b00e1fbbad314f638dd6f9f0ac4bba15",
+                        "meta": {
+                          "previousId": "builder-35ffbf27bd6b40babf9b19018525d43a",
+                          "localizedTextInputs": [
+                            "title",
+                            "description"
+                          ]
+                        },
+                        "component": {
+                          "name": "AccordionItem",
+                          "options": {
+                            "iconClass": "carbon:iso-outline",
+                            "title": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "ISO 27001 certified data-center",
+                              "de": "ISO 27001-zertifiziertes Rechenzentrum"
+                            },
+                            "description": {
+                              "@type": "@builder.io/core:LocalizedValue",
+                              "Default": "Our data-centers are ISO 27001 certified.",
+                              "de": "Unsere Rechenzentren sind nach ISO 27001 zertifiziert."
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "width": "100%"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "modelId": "7086ed8993d34b95a0208ec17cbabc2c",
+  "query": [],
+  "published": "published",
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F261d63794734410785dd56b8561ba480%2Fde50fc6ef7ed4237b30b732e455b6985",
+  "firstPublished": 1718117735146,
+  "testRatio": 1,
+  "lastUpdated": 1721219324514,
+  "createdDate": 1718117735146,
+  "createdBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "meta": {
+    "lastPreviewUrl": "https://metalstack.cloud/en/__builder_symbol__?builder.space=261d63794734410785dd56b8561ba480&builder.user.permissions=read%2Ccreate%2Cpublish%2CeditCode%2CeditDesigns%2Cadmin%2CeditLayouts%2CeditLayers&builder.user.role.name=Admin&builder.user.role.id=admin&builder.cachebust=true&builder.preview=symbol&builder.noCache=true&builder.allowTextEdit=true&__builder_editing__=true&builder.overrides.symbol=57d4d565a83a4f57aa661de0875f0568&builder.overrides.57d4d565a83a4f57aa661de0875f0568=57d4d565a83a4f57aa661de0875f0568&builder.options.locale=Default",
+    "kind": "component",
+    "componentsUsed": {
+      "AccordionItem": 5,
+      "Container": 1,
+      "Grid": 1,
+      "Row": 1,
+      "Section": 1,
+      "SectionIntro": 1
+    },
+    "breakpoints": {
+      "small": 640,
+      "medium": 1279
+    },
+    "hasLinks": false
+  },
+  "variations": {},
+  "name": "Section (Compliant by design)",
+  "id": "f7dfbf8071cd43b9838d86e93051f4ee",
+  "rev": "8yd44eb6u4b",
+  "@originOrg": "261d63794734410785dd56b8561ba480",
+  "@originContentId": "57d4d565a83a4f57aa661de0875f0568",
+  "@originModelId": "625631838ad64e2388c1b3123a78c283"
+}

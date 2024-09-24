@@ -1,0 +1,66 @@
+{
+  "lastUpdatedBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "folders": [],
+  "data": {
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-ff54bbb67e424686b4043f0355709bfb",
+        "meta": {
+          "localizedTextInputs": [
+            "title",
+            "strapline",
+            "descriptionRich"
+          ],
+          "previousId": "builder-2c9ef46e280e468aac908d5f0afce55d"
+        },
+        "component": {
+          "name": "SectionIntro",
+          "options": {
+            "textStyle": "lighter",
+            "straplineStyle": "primary",
+            "center": false,
+            "justifyText": false,
+            "hyphenate": false,
+            "splitColumns": false,
+            "title": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": "Get to know metalstack.cloud",
+              "de": "Lernen Sie metalstack.cloud kennen"
+            },
+            "strapline": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": ""
+            },
+            "descriptionRich": {
+              "@type": "@builder.io/core:LocalizedValue",
+              "Default": ""
+            }
+          }
+        }
+      }
+    ],
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "modelId": "7086ed8993d34b95a0208ec17cbabc2c",
+  "query": [],
+  "published": "published",
+  "testRatio": 1,
+  "createdDate": 1722498640028,
+  "createdBy": "nWAARsUnq2RlFVWycH4vWVpQRW23",
+  "meta": {},
+  "variations": {},
+  "name": "Section (Get to know metalstack.cloud V2)",
+  "id": "b26423973a6248d8b32d1a2479d62652",
+  "rev": "8yd44eb6u4b",
+  "@originOrg": "261d63794734410785dd56b8561ba480",
+  "@originContentId": "3a2601f694374fada7c8cc192e6648bb",
+  "@originModelId": "625631838ad64e2388c1b3123a78c283"
+}
